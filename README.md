@@ -13,15 +13,15 @@ analysis, which can be time-consuming if done manually. To address this, substan
 research work has focused on automating TDM tasks, such as automatic identification
 of code smells and automatic refactoring of source code.
 
-[comment]: # __Problem and Motivation__: 
+# __Problem and Motivation__: 
 
-[comment]: # __Objective__: 
+# __Objective__: 
 
-[comment]: # __Methods__: 
+# __Methods__: 
 
-[comment]: # __Results__: 
+# __Results__: 
 
-[comment]: # __Conclusion__: 
+# __Conclusion__: 
 
 ## Structure of the replication package:
 
