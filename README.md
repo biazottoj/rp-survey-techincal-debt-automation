@@ -4,24 +4,17 @@
 
 ## Description of this study:
 
-__Context__: Technical Debt (TD) refers to non-optimal decisions made in software projects
-that may lead to short-term benefits, but potentially harm the system’s maintenance
-and evolution in the long-term. Technical debt management (TDM) refers to a set of
-activities that are performed to handle TD, e.g., identification, documentation, and
-repayment of TD. These activities typically entail tasks such as code and architectural
-analysis, which can be time-consuming if done manually. To address this, substantial
-research work has focused on automating TDM tasks, such as automatic identification
-of code smells and automatic refactoring of source code.
+__Context__:
 
-# __Problem and Motivation__: 
+__Problem and Motivation__: 
 
-# __Objective__: 
+__Objective__: 
 
-# __Methods__: 
+__Methods__: 
 
-# __Results__: 
+__Results__: 
 
-# __Conclusion__: 
+__Conclusion__: 
 
 ## Structure of the replication package:
 
@@ -45,11 +38,11 @@ The replication package includes the datasets, the scripts for data analysis, an
 
 ```
 
-## Description of each variable in ``selected-artifacts.csv``
+## Description of each variable in ``files.csv``
 
 | variable name                         | description                                                                                                                              |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| id                                    | ID of the artifact                                                                                                                       |
+| id                                    | ID                                                                                                                    |
 
 ## Running the data analysis
 
