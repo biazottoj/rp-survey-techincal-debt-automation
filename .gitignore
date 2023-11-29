@@ -5,4 +5,4 @@
 gh-token.txt
 /scripts/data-collection.ipynb
 /data/*
-!/data/test-choma.csv
+!data/teste-choma.csv
