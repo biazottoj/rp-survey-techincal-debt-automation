@@ -1,0 +1,32 @@
+Dear $name,
+
+We are researchers in the field of software engineering at the University of Groningen, the Netherlands. 
+Our objective is to better understand your views regarding the utilization of tools for facilitating software maintenance in practice.
+
+Considering your contributions to the $owner $project project, your anonymous input would be invaluable.
+To help us, you can answer one or more of five short surveys (approx. 5-8 minutes each). Each survey addresses a specific scenario illustrating a tool usage:
+
+	- A bot that labels issues based on issue text: https://forms.gle/oYTyxhbhirTaMgY3A
+
+	- A dashboard that presents the amount of code smells and technical debt: https://forms.gle/Jc6fsAeh2VsAHLe29
+
+	- A ItelliJ IDEA plugin that suggests refactoring actions: https://forms.gle/Tz3XcaCQ9jxiCg297
+
+	- A Travis CI job that notifies stakeholders considering quality metrics: https://forms.gle/MghJLApVPeMYLyYC7
+
+	- A bot that facilitates code review in Github pull requests: https://forms.gle/bZkSBcjbXfmfavQ48
+
+Among other goals, we aim to build and help others build support tools that are driven by the added value for the developer.
+
+Thank you for considering our invitation, and we look forward to your valuable insights. 
+
+If you have any questions, please contact us. Please also contact us if you do not want to receive such emails in the future.
+
+
+Sincerely,
+
+--
+João Paulo Biazotto - PhD Student
+Software Architecture and Engineering Group (SEARCH)
+Bernoulli Institute, University of Groningen, the Netherlands
+https://biazottoj.github.io/

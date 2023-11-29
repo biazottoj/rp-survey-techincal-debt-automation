@@ -1,28 +1,60 @@
-from upsetplot import plot
-from matplotlib import pyplot
-from upsetplot import from_contents
-from matplotlib import pyplot as plt
-from upsetplot import UpSet
-import pandas as pd
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-def to_1D(series):
-    return pd.Series([x for _list in series for x in _list])
 
-def add_list_to_dict(dict_variable = None, key = None, items_list = None):
-    if key in dict_variable.keys():
-        dict_variable[key].extend(items_list)
-        dict_variable[key] = list(set(dict_variable[key]))
-    else:
-        dict_variable[key] = items_list
-    return dict_variable
+def create_dataset_row(bot, issue, text_section='title', is_comment=False, comment_number=None, owner_project=None): 
+    if not is_comment:
+        return {
+            "bot":bot,
+            'owner_project': owner_project,
+            'issue' : '-' if 'issue' not in issue.keys() else issue['number'],
+            'text' : '-' if 'issue' not in issue.keys() else issue[text_section],
+            'type' : text_section,
+            'n-comments': issue['comments'],
+            'author-login': issue['user']['login'],
+            'open-date':  issue['created_at'],
+            'state' : issue['state'],
+            'close-date': issue['closed_at'],
+            'closed-by': issue['closed_by']['login'] if issue['closed_by'] != None else '-',
+            'td-label-li2022-emse': '-' if 'td-label-li2022-emse' not in issue.keys() else issue['td-label-li2022-emse']
+        }
+    
+    return {
+            "bot":bot,
+            'owner_project': owner_project,
+            'issue' : issue['issue_url'].split('/')[-1],
+            'text' : issue['body'],
+            'type' : f'comment_{comment_number}',
+            'author-login': issue['user']['login'],
+            'open-date': issue['created_at'],
+            'state' : '-',
+            'close-date' :'-',
+            'closed-by': '-',
+            'td-label-li2022-emse': '-' if 'td-label-li2022-emse' not in issue.keys() else issue['td-label-li2022-emse']
+        }
+def requests_retry_session(retries=5, backoff_factor=5, session=None):
+    """
+    Retry request
+    :param retries:
+    :param backoff_factor:
+    :param session:
+    :return:
+    """
+    session = session or requests.Session()
 
-def plot_upset(items_dict : dict, element_size : float, color : str, output_name : str):
-    data = from_contents(items_dict)
-    fig = plt.figure()
-    plot(data, fig=fig, 
-        element_size=element_size, 
-        show_counts = True,  
-        facecolor=color, 
-        sort_by = 'cardinality', 
-        sort_categories_by='-cardinality')
-    plt.savefig(f'../figures/{output_name}.pdf', bbox_inches='tight')
+    Retry.BACKOFF_MAX = 60
+    retry = Retry(
+        total=retries,
+        read=retries,
+        connect=retries,
+        backoff_factor=backoff_factor,
+        status_forcelist=(403, 500, 502, 503, 504),
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+
+    # super important
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+
+    return session
