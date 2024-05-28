@@ -1,0 +1,104 @@
+scenario;id;education;experience;role
+s1;s1_r1;Master;less than 1 year;Phd Student
+s1;s1_r2;Unfinished bachelor;more than 10 years;Software Developer
+s1;s1_r3;Bachelor;more than 10 years;Software Developer
+s1;s1_r4;Bachelor;1 - 5 years;Software Developer
+s1;s1_r5;Master;more than 10 years;Software Architect/Designer
+s1;s1_r6;Master;more than 10 years;Software Developer
+s1;s1_r7;Master;1 - 5 years;Software Developer
+s1;s1_r8;Master;more than 10 years;Software Developer
+s1;s1_r9;Bachelor;more than 10 years;Software Developer
+s1;s1_r10;Master;more than 10 years;Software Developer
+s1;s1_r11;Master;more than 10 years;Software Developer
+s1;s1_r12;Bachelor;1 - 5 years;Software Developer
+s1;s1_r13;PhD;1 - 5 years;Software Developer
+s1;s1_r14;Master;more than 10 years;Project Manager
+s1;s1_r15;Master;1 - 5 years;Software Architect/Designer
+s1;s1_r16;Master;1 - 5 years;Software Architect/Designer
+s1;s1_r17;PhD;1 - 5 years;Software Architect/Designer
+s1;s1_r18;PhD;more than 10 years;Software Developer
+s1;s1_r19;PhD;more than 10 years;Software Architect/Designer
+s1;s1_r20;Bachelor;more than 10 years;Software Architect/Designer
+s1;s1_r21;Bachelor;1 - 5 years;Software Developer
+s1;s1_r22;Unfinished bachelor;more than 10 years;Engineering Manager
+s1;s1_r23;Bachelor;1 - 5 years;Software Developer
+s1;s1_r24;Master;more than 10 years;Project Manager
+s1;s1_r25;Bachelor;6 - 10 years;Software Developer
+s2;s2_r1;Unfinished bachelor;more than 10 years;Software Developer
+s2;s2_r2;Bachelor;more than 10 years;Software Developer
+s2;s2_r3;Master;more than 10 years;Software Developer
+s2;s2_r4;Bachelor;1 - 5 years;Student
+s2;s2_r5;Master;more than 10 years;Software Developer
+s2;s2_r6;Master;more than 10 years;Software Developer
+s2;s2_r7;Bachelor;1 - 5 years;Quality Assurance
+s2;s2_r8;PhD;1 - 5 years;Software Developer
+s2;s2_r9;Master;more than 10 years;Project Manager
+s2;s2_r10;Master;1 - 5 years;Software Architect/Designer
+s2;s2_r11;Master;6 - 10 years;Software Developer
+s2;s2_r12;PhD;more than 10 years;Software Architect/Designer
+s2;s2_r13;Master;6 - 10 years;Software Developer
+s2;s2_r14;Bachelor;more than 10 years;System Architect
+s2;s2_r15;PhD;1 - 5 years;Software Architect/Designer
+s2;s2_r16;Bachelor;1 - 5 years;Software Developer
+s2;s2_r17;Bachelor;1 - 5 years;Software Developer
+s2;s2_r18;Bachelor;1 - 5 years;Software Developer
+s2;s2_r19;Unfinished bachelor;more than 10 years;Engineering Manager
+s2;s2_r20;Bachelor;1 - 5 years;Software Developer
+s2;s2_r21;Bachelor;6 - 10 years;Software Developer
+s3;s3_r1;Master;1 - 5 years;Software Developer
+s3;s3_r2;Unfinished bachelor;more than 10 years;Software Developer
+s3;s3_r3;Bachelor;more than 10 years;Software Developer
+s3;s3_r4;Master;1 - 5 years;Software Developer
+s3;s3_r5;Bachelor;more than 10 years;Software Architect/Designer
+s3;s3_r6;Diploma;more than 10 years;Software Architect/Designer
+s3;s3_r7;Master;more than 10 years;Software Developer
+s3;s3_r8;Master;more than 10 years;Software Developer
+s3;s3_r9;PhD;1 - 5 years;Software Developer
+s3;s3_r10;Master;more than 10 years;Project Manager
+s3;s3_r11;Master;6 - 10 years;Software Developer
+s3;s3_r12;Master;1 - 5 years;Software Architect/Designer
+s3;s3_r13;PhD;more than 10 years;Software Architect/Designer
+s3;s3_r14;Bachelor;1 - 5 years;Software Developer
+s3;s3_r15;Bachelor;more than 10 years;Software Developer
+s3;s3_r16;Master;6 - 10 years;Customer Engineer
+s3;s3_r17;Bachelor;1 - 5 years;Software Developer
+s3;s3_r18;Unfinished bachelor;more than 10 years;Engineering Manager
+s3;s3_r19;Bachelor;more than 10 years;Software Developer
+s3;s3_r20;Bachelor;1 - 5 years;Software Developer
+s3;s3_r21;Bachelor;6 - 10 years;Software Developer
+s4;s4_r1;Unfinished bachelor;more than 10 years;Software Developer
+s4;s4_r2;Bachelor;more than 10 years;Software Developer
+s4;s4_r3;Master;more than 10 years;Software Developer
+s4;s4_r4;PhD;1 - 5 years;Software Developer
+s4;s4_r5;Master;more than 10 years;Project Manager
+s4;s4_r6;PhD;more than 10 years;Software Architect/Designer
+s4;s4_r7;Bachelor;more than 10 years;System Architect
+s4;s4_r8;Bachelor;1 - 5 years;Software Developer
+s4;s4_r9;Bachelor;1 - 5 years;Software Developer
+s4;s4_r10;Unfinished bachelor;more than 10 years;Engineering Manager
+s4;s4_r11;Bachelor;1 - 5 years;Software Developer
+s4;s4_r12;Master;1 - 5 years;Researcher
+s4;s4_r13;Bachelor;6 - 10 years;Software Developer
+s5;s5_r1;PhD;less than 1 year;Software Developer
+s5;s5_r2;Unfinished bachelor;more than 10 years;Software Developer
+s5;s5_r3;Bachelor;1 - 5 years;Software Developer
+s5;s5_r4;Bachelor;more than 10 years;Software Developer
+s5;s5_r5;Master;1 - 5 years;Software Developer
+s5;s5_r6;Master;more than 10 years;Software Developer
+s5;s5_r7;Master;more than 10 years;Software Developer
+s5;s5_r8;Bachelor;more than 10 years;Software Developer
+s5;s5_r9;Master;more than 10 years;Software Developer
+s5;s5_r10;Master;more than 10 years;Software Developer
+s5;s5_r11;PhD;1 - 5 years;Software Developer
+s5;s5_r12;Master;more than 10 years;Project Manager
+s5;s5_r13;Bachelor;more than 10 years;Software Developer
+s5;s5_r14;PhD;6 - 10 years;Software Architect/Designer
+s5;s5_r15;PhD;more than 10 years;Software Architect/Designer
+s5;s5_r16;Bachelor;more than 10 years;System Architect
+s5;s5_r17;High certificate;more than 10 years;Software Developer
+s5;s5_r18;Bachelor;1 - 5 years;Software Developer
+s5;s5_r19;Bachelor;1 - 5 years;Software Developer
+s5;s5_r20;Unfinished bachelor;more than 10 years;Engineering Manager
+s5;s5_r21;Bachelor;1 - 5 years;Software Developer
+s5;s5_r22;Bachelor;6 - 10 years;Software Developer
+s5;s5_r23;Bachelor;6 - 10 years;Software Developer

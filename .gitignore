@@ -5,4 +5,7 @@
 gh-token.txt
 /scripts/data-collection.ipynb
 /data/*
-!data/teste-choma.csv
+!data/codes-report-exported-from-atlasti.txt
+!data/requirements-and-respondents.csv
+!data/requirements-dataset.csv
+!data/respondents-dataset.csv

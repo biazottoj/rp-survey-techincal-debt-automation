@@ -1,0 +1,115 @@
+scenario,category,complete-requirement,code,respondent-id,respondent-role,respondent-experience,respondent-education
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r14,Project Manager,more than 10 years,Master
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r23,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s4_r7,System Architect,more than 10 years,Bachelor
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r17,Software Architect/Designer,1 - 5 years,PhD
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r19,Software Architect/Designer,more than 10 years,PhD
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r4,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r15,Software Architect/Designer,1 - 5 years,Master
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r21,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may notify practitioners about issues containing techincal debt.,1-notifications are useful,s1_r25,Software Developer,6 - 10 years,Bachelor
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the feature under development.,1-notifications useufulness depends on the feature under development,s1_r11,Software Developer,more than 10 years,Master
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the feature under development.,1-notifications useufulness depends on the feature under development,s1_r4,Software Developer,1 - 5 years,Bachelor
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the feature under development.,1-notifications useufulness depends on the feature under development,s1_r15,Software Architect/Designer,1 - 5 years,Master
+s1,trigger/threshold,The issue labeling bot may provide a customization options to configure notifications when a threshold is reached.,1-notifications are useful when a project reach a threshold,s1_r18,Software Developer,more than 10 years,PhD
+s1,trigger/threshold,The issue labeling bot may provide a customization options to configure notifications when a threshold is reached.,1-notifications are useful when a project reach a threshold,s1_r13,Software Developer,1 - 5 years,PhD
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the time since an issue was open.,1-notification are useful for not lingering tickets,s1_r22,Engineering Manager,more than 10 years,Unfinished bachelor
+s1,channel,The issue labeling bot may send notifications by e-mail,1-notifications can be sent by e-mail,s1_r14,Project Manager,more than 10 years,Master
+s1,channel,The issue labeling bot may send notifications by instant messaging services,1-notifications can be sent using instant message services,s1_r14,Project Manager,more than 10 years,Master
+s1,channel,The issue labeling bot may send notifications by instant messaging services,1-notifications can be sent using instant message services,s1_r17,Software Architect/Designer,1 - 5 years,PhD
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the lable assigned to an issue.,1-customization options are necessary,s1_r22,Engineering Manager,more than 10 years,Unfinished bachelor
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the lable assigned to an issue.,1-customization options are necessary,s1_r4,Software Developer,1 - 5 years,Bachelor
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the lable assigned to an issue.,1-customization options are necessary,s1_r2,Software Developer,more than 10 years,Unfinished bachelor
+s1,trigger/threshold,The issue labeling bot may provide a customization option to configure notifications considering the lable assigned to an issue.,1-customization options are necessary,s1_r21,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may enable practitioners to choose whether to assign a label to an issue,1-customization options are necessary,s1_r22,Engineering Manager,more than 10 years,Unfinished bachelor
+s1,information to be provided,The issue labeling bot may enable practitioners to choose whether to assign a label to an issue,1-customization options are necessary,s1_r4,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may enable practitioners to choose whether to assign a label to an issue,1-customization options are necessary,s1_r2,Software Developer,more than 10 years,Unfinished bachelor
+s1,information to be provided,The issue labeling bot may enable practitioners to choose whether to assign a label to an issue,1-customization options are necessary,s1_r21,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may provide a customization option to configure to which practitioners notifications will be sent.,1-notifications should be sent to interested people only,s1_r8,Software Developer,more than 10 years,Master
+s1,information to be provided,The issue labeling bot may provide a customization option to configure to which practitioners notifications will be sent.,1-notifications should be sent to interested people only,s1_r4,Software Developer,1 - 5 years,Bachelor
+s1,information to be provided,The issue labeling bot may provide a customization option to configure to which practitioners notifications will be sent.,1-notifications should be sent to interested people only,s1_r5,Software Architect/Designer,more than 10 years,Master
+s1,information to be provided,The issue labeling bot may provide a customization option to configure to which practitioners notifications will be sent.,1-notifications should be sent to interested people only,s1_r22,Engineering Manager,more than 10 years,Unfinished bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r12,Software Architect/Designer,more than 10 years,PhD
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r15,Software Architect/Designer,1 - 5 years,PhD
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r4,Student,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r21,Software Developer,6 - 10 years,Bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r16,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by package,2-group code smells per package,s2_r14,System Architect,more than 10 years,Bachelor
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r12,Software Architect/Designer,more than 10 years,PhD
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r20,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r19,Engineering Manager,more than 10 years,Unfinished bachelor
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r15,Software Architect/Designer,1 - 5 years,PhD
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r4,Student,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r11,Software Developer,6 - 10 years,Master
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r17,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may contain a dedicated widget for technical debt,2-widget is useful,s2_r16,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by type.,2-group smells by type,s2_r2,Software Developer,more than 10 years,Bachelor
+s2,information to be provided,The dashboard may present a list of smells grouped by type.,2-group smells by type,s2_r13,Software Developer,6 - 10 years,Master
+s2,information to be provided,The dashboard may present a list of smells grouped by type.,2-group smells by type,s2_r9,Project Manager,more than 10 years,Master
+s2,information to be provided,The dashboard may present a list of smells grouped by type.,2-group smells by type,s2_r8,Software Developer,1 - 5 years,PhD
+s2,information to be provided,The dashboard may present the time since an issue was open.,2-issue age,s2_r12,Software Architect/Designer,more than 10 years,PhD
+s2,information to be provided,The dashboard may present the time since an issue was open.,2-issue age,s2_r19,Engineering Manager,more than 10 years,Unfinished bachelor
+s2,information to be provided,The dashboard may present the time since an issue was open.,2-issue age,s2_r9,Project Manager,more than 10 years,Master
+s2,information to be provided,The dashboard may present the time since an issue was open.,2-issue age,s2_r13,Software Developer,6 - 10 years,Master
+s2,information to be provided,The dashboard may present the time since an issue was open.,2-issue age,s2_r16,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dedicated technical debt dashboard may present the business impact of technical debt.,2-business impact of td should be present in a dedicated td dashboard,s2_r15,Software Architect/Designer,1 - 5 years,PhD
+s2,information to be provided,The dedicated technical debt dashboard may present the business impact of technical debt.,2-business impact of td should be present in a dedicated td dashboard,s2_r9,Project Manager,more than 10 years,Master
+s2,information to be provided,The dedicated technical debt dashboard may present the business impact of technical debt.,2-business impact of td should be present in a dedicated td dashboard,s2_r14,System Architect,more than 10 years,Bachelor
+s2,information to be provided,The dedicated technical debt dashboard may present the severity of technical debt.,2-severity of td should be present in a dedicated td dashboard,s2_r13,Software Developer,6 - 10 years,Master
+s2,information to be provided,The dedicated technical debt dashboard may present the severity of technical debt.,2-severity of td should be present in a dedicated td dashboard,s2_r9,Project Manager,more than 10 years,Master
+s2,information to be provided,The dashboard may provide a customization option to select which projects/files to present information about.,2-customization options are necessary,s2_r4,Student,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may provide a customization option to select which projects/files to present information about.,2-customization options are necessary,s2_r20,Software Developer,1 - 5 years,Bachelor
+s2,information to be provided,The dashboard may present the evolution of the metrics provided by linters.,2-presenting results over time is useful,s2_r12,Software Architect/Designer,more than 10 years,PhD
+s2,information to be provided,The dashboard may present the evolution of the metrics provided by linters.,2-presenting results over time is useful,s2_r3,Software Developer,more than 10 years,Master
+s2,information to be provided,The dedicated technical debt dashboard may present the time since a techincal debt item was inserted in a project.,2-td age should be present in a dedicated td dashboard,s2_r9,Project Manager,more than 10 years,Master
+s2,information to be provided,The dedicated technical debt dashboard may present the time since a techincal debt item was inserted in a project.,2-td age should be present in a dedicated td dashboard,s2_r21,Software Developer,6 - 10 years,Bachelor
+s2,information to be provided,The dashboard may present a list of issues grouped by reporter.,2-group issues by reporter,s2_r6,Software Developer,more than 10 years,Master
+s2,information to be provided,The dedicated technical debt dashboard may present a list of technical debt items grouped by type.,2-group td items by type,s2_r8,Software Developer,1 - 5 years,PhD
+s2,information to be provided,The dashboard may present test code coverage combined with the amount of issues containing technical debt,2-test code coverage could be combined with the amounts of issues with td,s2_r11,Software Developer,6 - 10 years,Master
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r14,Software Developer,1 - 5 years,Bachelor
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r19,Software Developer,more than 10 years,Bachelor
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r6,Software Architect/Designer,more than 10 years,Diploma
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r8,Software Developer,more than 10 years,Master
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r3,Software Developer,more than 10 years,Bachelor
+s3,tool executition,The refactoring plugin may enable manually-trggered execution,3-manual trigger is the preference,s3_r9,Software Developer,1 - 5 years,PhD
+s3,information to be provided,The refactoring plugin may provide refactoring suggestion at commit time,3-suggestions at commit time,s3_r13,Software Architect/Designer,more than 10 years,PhD
+s3,information to be provided,The refactoring plugin may provide refactoring suggestion at commit time,3-suggestions at commit time,s3_r11,Software Developer,6 - 10 years,Master
+s3,information to be provided,The refactoring plugin may provide refactoring suggestion at commit time,3-suggestions at commit time,s3_r20,Software Developer,1 - 5 years,Bachelor
+s3,information to be provided,The refactoring plugin may provide refactoring suggestion at commit time,3-suggestions at commit time,s3_r18,Engineering Manager,more than 10 years,Unfinished bachelor
+s3,information to be provided,The refactoring plugin may inform the impact of refactoring suggestions on legacy systems,3-refactoring suggestions must to consider the impact on legacy systems,s3_r10,Project Manager,more than 10 years,Master
+s3,channel,The refactoring plugin may present refactoring suggestions within the IDE interface.,3-show suggestions in the ide gui,s3_r18,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r12,Researcher,1 - 5 years,Master
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r2,Software Developer,more than 10 years,Bachelor
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r5,Project Manager,more than 10 years,Master
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r6,Software Architect/Designer,more than 10 years,PhD
+s4,channel,The ci-script may send notification using instant message services,4-instant message could be used for notificaitons,s4_r4,Software Developer,1 - 5 years,PhD
+s4,information to be provided,The ci-script may send a report containig the evolution of quality metrics.,4-evolution of quality metrics,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,information to be provided,The ci-script may send a report containig the evolution of quality metrics.,4-evolution of quality metrics,s4_r13,Software Developer,6 - 10 years,Bachelor
+s4,information to be provided,The ci-script may send a report containig the evolution of quality metrics.,4-evolution of quality metrics,s4_r6,Software Architect/Designer,more than 10 years,PhD
+s4,trigger/threshold,The ci-script may send notifications to practitioners based on a threshold.,4-notifications should be sent based on a threshold,s4_r2,Software Developer,more than 10 years,Bachelor
+s4,trigger/threshold,The ci-script may send notifications to practitioners based on a threshold.,4-notifications should be sent based on a threshold,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,trigger/threshold,The ci-script may send notifications to practitioners based on a threshold.,4-notifications should be sent based on a threshold,s4_r11,Software Developer,1 - 5 years,Bachelor
+s4,tool executition,The ci-script may send notifications to practitioners after each CI-Cycle.,4-notification after each ci cyle,s4_r5,Project Manager,more than 10 years,Master
+s4,tool executition,The ci-script may send notifications to practitioners after each CI-Cycle.,4-notification after each ci cyle,s4_r6,Software Architect/Designer,more than 10 years,PhD
+s4,information to be provided,The ci-script may send the summary of the data presented report.,4-summary of data presented in the commiunication,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,information to be provided,The ci-script may send the summary of the data presented report.,4-summary of data presented in the commiunication,s4_r5,Project Manager,more than 10 years,Master
+s4,channel,The ci-script may send notification using instant mailing lists,4-mailing lists are good channels,s4_r1,Software Developer,more than 10 years,Unfinished bachelor
+s4,tool executition,The ci-script may present qaulity metrics using a CI Job Dashboard.,4-dashboard,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,information to be provided,The ci-script may include the amount of code smells in a projec into the report.,4-number of code smells,s4_r12,Researcher,1 - 5 years,Master
+s4,information to be provided,The ci-script may include the metric that triggered a certain report into the report.,4-metric that triggered the alert,s4_r10,Engineering Manager,more than 10 years,Unfinished bachelor
+s4,channel,The ci-script may send notifications to practitioners using pull requests messages,4-comments in prs are a good channel for communication,s4_r3,Software Developer,more than 10 years,Master
+s5,information to be provided,The code review bot may notify the tech lead/architect about the amount of code smells in a code patch.,5-tech lead/architect,s5_r18,Software Developer,1 - 5 years,Bachelor
+s5,information to be provided,The code review bot may notify the tech lead/architect about the amount of code smells in a code patch.,5-tech lead/architect,s5_r15,Software Architect/Designer,more than 10 years,PhD
+s5,information to be provided,The code review bot may notify the tech lead/architect about the amount of code smells in a code patch.,5-tech lead/architect,s5_r12,Project Manager,more than 10 years,Master
+s5,information to be provided,The code review bot may provide additional informaiton that helps solving the code smells in a new code patch.,5-additional informaiton to help solving the issue,s5_r2,Software Developer,more than 10 years,Unfinished bachelor
+s5,information to be provided,The code review bot may provide additional informaiton that helps solving the code smells in a new code patch.,5-additional informaiton to help solving the issue,s5_r13,Software Developer,more than 10 years,Bachelor
+s5,information to be provided,The code review bot may provide the feature or user story number in the report about code smells in a new code patch.,5-feature or number story,s5_r14,Software Architect/Designer,6 - 10 years,PhD
+s5,information to be provided,The code review bot may provide the number of code smells in the files before the PR with a new code patch.,5-number of code smells before PR,s5_r15,Software Architect/Designer,more than 10 years,PhD
+s5,information to be provided,The code review bot may notify the contributors of a certain module about code smells in a new code patch.,5-notifies contributors to a specific module,s5_r3,Software Developer,1 - 5 years,Bachelor
+s5,information to be provided,The code review bot may notify the commity author about code smells in a new code patch.,5-notify commit author,s5_r13,Software Developer,more than 10 years,Bachelor
+s5,information to be provided,The code review bot may include links to the code smells in a new code patch.,5-link to facilitate navigation,s5_r21,Software Developer,1 - 5 years,Bachelor
+s5,tool executition,The code review bot may provide a command mark code smells as false prositives in a new code patch,5-command:mark code smells as false positives,s5_r20,Engineering Manager,more than 10 years,Unfinished bachelor
+s5,information to be provided,The code review bot may provide  the long-term impact of code smells in a new code patch,5-long-term impact,s5_r16,System Architect,more than 10 years,Bachelor
+s5,information to be provided,The code review bot may provide a command for ignoring warnings about code smells in a new code patch.,5-command suggestion,s5_r12,Project Manager,more than 10 years,Master
+s5,information to be provided,The code review bot may provide a warn containing the standards set by the team.,5-the warn should include standards,s5_r17,Software Developer,more than 10 years,High certificate

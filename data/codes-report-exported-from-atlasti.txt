@@ -1,0 +1,338 @@
+Project: sandbox (last version)
+Report created by João Paulo Biazotto on 26/05/2024
+Code Report
+(45) codes
+Local filters:
+Show codes in group codes-representing-requirements
+  ○ 1-customization options are necessary
+6 Quotations:
+  2:12 ¶ 8, in s1_r2
+but I very much doubt it would be useful without extensive intelligent customization options.
+  4:7 ¶ 4, in s1_r4
+That would make sense in the scenario where a developer or a company is highly focused on a particular feature. Adding a label that notifies the manager and the developer on an issue around that feature would definitely help them.
+  4:23 ¶ 8, in s1_r4
+You might also want to consider that in that case, users might want the bot to wait for confirmation on the labels, so that only the desired label will be added. Or all of them?
+  21:2 ¶ 4, in s1_r21
+Yes, depending on the label it would be cool, maybe just add a control so it doesn't notify for not so important labels?
+  22:12 ¶ 6, in s1_r22
+You should be able to configure queries and notifications based on the labels, for example.
+  22:13 ¶ 6, in s1_r22
+but that would require a way to decline the offer too.
+  ○ 1-notification are useful for not lingering tickets
+1 Quotations:
+  22:14 ¶ 6, in s1_r22
+The only scenario that I think might be useful is notifying about not addressed tickets,
+  ○ 1-notifications are useful
+10 Quotations:
+  4:15 ¶ 4, in s1_r4
+That would make sense in the scenario where a developer or a company is highly focused on a particular feature. Adding a label that notifies the manager and the developer on an issue around that feature would definitely help them
+  14:2 ¶ 4, in s1_r14
+Yes, it can be an e-mail or a message in Slack (or any other similar tool).
+  14:7 ¶ 4, in s1_r14
+Yes
+  15:7 ¶ 4, in s1_r15
+Sim, principalmente para o developer (o developer, num cenário de Continuous Software Engineering, por exemplo, tem muita autonomia)
+  17:2 ¶ 4, in s1_r17
+Yes. They need to get instant the message and understand the priority
+  19:2 ¶ 4, in s1_r19
+Yes, because at the moment of issue creation more information can be added by the other members of the team.
+  21:9 ¶ 4, in s1_r21
+Yes, depending on the label it would be cool,
+  23:2 ¶ 4, in s1_r23
+Yes, in my experience, tech debt tasks usually got lost in the backlog.
+  25:2 ¶ 4, in s1_r25
+Yes, that would make the team aware of the problem.
+  74:3 ¶ 6, in s4_r7
+Today I turn off any kind of automatic notifications to not become stressed.
+  ○ 1-notifications are useful when a project reach a threshold
+2 Quotations:
+  13:3 ¶ 6, in s1_r13
+maybe when technical debt achieve unacceptable threshold
+  18:12 ¶ 6, in s1_r18
+reaching a threshold can be considered a critical situation? If so, then the feature is useful.
+  ○ 1-notifications can be sent by e-mail
+1 Quotations:
+  14:8 ¶ 4, in s1_r14
+e-mai
+  ○ 1-notifications can be sent using instant message services
+2 Quotations:
+  14:9 ¶ 4, in s1_r14
+Slack
+  17:6 ¶ 4, in s1_r17
+instant the message
+  ○ 1-notifications should be sent to interested people only
+5 Quotations:
+  4:9 ¶ 6, in s1_r4
+You should only notify people that are interested.
+  5:9 ¶ 4, in s1_r5
+Developer yes
+  5:10 ¶ 6, in s1_r5
+That's still a no for management.
+  8:8 ¶ 6, in s1_r8
+Automatically getting CC'ed on issues based on how they are routed (i.e. which components and projects they pass through) would be pretty useful in general.
+  22:10 ¶ 4, in s1_r22
+Interested stakeholders can monitor these.
+  ○ 1-notifications useufulness depends on the feature under development
+3 Quotations:
+  4:7 ¶ 4, in s1_r4
+That would make sense in the scenario where a developer or a company is highly focused on a particular feature. Adding a label that notifies the manager and the developer on an issue around that feature would definitely help them.
+  11:3 ¶ 6, in s1_r11
+Yes, but it's unrelated to the bot described in this section.
+  15:8 ¶ 2, in s1_r15
+Então qualquer report de technical debt sobre código, deployment, teste, etc.. estava sendo "não priorizado".
+  ○ 2-business impact of td should be present in a dedicated td dashboard
+3 Quotations:
+  34:15 ¶ 10, in s2_r9
+business impact
+  39:2 ¶ 4, in s2_r14
+I think you need to provide a true cost/time impact of the smell. Money/time is the only thing that where I am employeed.
+  40:9 ¶ 4, in s2_r15
+Prioritization is always a matter of what brings more value to the business (or open source project).
+  ○ 2-customization options are necessary
+2 Quotations:
+  29:6 ¶ 4, in s2_r4
+Perhaps if the users could select specific files as being particularly important smells in them could be presented. Otherwise the dashboard should remain as only exposing the information, and leave the analysis to humans
+  45:9 ¶ 10, in s2_r20
+but you could filter by an specific project
+  ○ 2-group code smells per package
+10 Quotations:
+  29:4 ¶ 2, in s2_r4
+Yes, by package.
+  29:5 ¶ 2, in s2_r4
+Code smells in the same package are more likely to be related, so putting them together makes them easier to analyze.
+  37:5 ¶ 2, in s2_r12
+because the package/file division would help on prioritize the issues on focusing the team efforts in specific parts of the software.
+  37:6 ¶ 2, in s2_r12
+Yes
+  37:7 ¶ 2, in s2_r12
+division would help on prioritize the issues on focusing the team efforts in specific parts of the software.
+  39:5 ¶ 2, in s2_r14
+It must be organized by a larger element than a source cose file
+  40:7 ¶ 2, in s2_r15
+"Where do I have to have a look at?"
+  41:5 ¶ 2, in s2_r16
+Yes, I believe a package/file organization would be easier to find,
+  41:6 ¶ 2, in s2_r16
+but maybe the nesting would be a problem.
+  46:6 ¶ 2, in s2_r21
+and later on even identify why we have that much code smells in that part of the application.
+  ○ 2-group issues by reporter
+2 Quotations:
+  31:5 ¶ 10, in s2_r6
+Can't tell... Just usual information - created/reporter/...
+  31:10 ¶ 2, in s2_r6
+group them by reporter
+  ○ 2-group smells by type
+6 Quotations:
+  27:5 ¶ 2, in s2_r2
+Maybe a list of types and their number of appearance would be useful.
+  33:9 ¶ 4, in s2_r8
+maybe a classification of which types of code smells are more common in each repository,
+  33:10 ¶ 4, in s2_r8
+But it would help managers to comprehend which are the weaknesses in their development team
+  34:6 ¶ 2, in s2_r9
+Yes, but perhaps the "top" types of smells to keep the dashboard simple.
+  34:7 ¶ 2, in s2_r9
+It could be a categorized list.
+  38:6 ¶ 2, in s2_r13
+A list with smells grouped by type
+  ○ 2-group td items by type
+1 Quotations:
+  33:11 ¶ 10, in s2_r8
+as a developer i would like to see which debts are most common,
+  ○ 2-issue age
+5 Quotations:
+  34:8 ¶ 4, in s2_r9
+Issue age
+  37:8 ¶ 4, in s2_r12
+data of creation
+  38:8 ¶ 4, in s2_r13
+Time since the issue was open
+  41:2 ¶ 4, in s2_r16
+I believe the time the issue was open is a good idea.
+  44:9 ¶ 4, in s2_r19
+Age definitely helps here
+  ○ 2-presenting results over time is useful
+2 Quotations:
+  28:5 ¶ 2, in s2_r3
+linter results over time, which is nice to have.
+  37:10 ¶ 4, in s2_r12
+the traceability of other issues related with that package/file along the time, e.g., stories, bugs, and others.
+  ○ 2-severity of td should be present in a dedicated td dashboard
+2 Quotations:
+  34:13 ¶ 10, in s2_r9
+Severity
+  38:9 ¶ 4, in s2_r13
+technical debt criticality
+  ○ 2-td age should be present in a dedicated td dashboard
+2 Quotations:
+  34:14 ¶ 10, in s2_r9
+age
+  46:9 ¶ 4, in s2_r21
+knowing how long that technical debt is pending
+  ○ 2-test code coverage could be combined with the amounts of issues with td
+1 Quotations:
+  36:8 ¶ 4, in s2_r11
+Test code coverage
+  ○ 2-widget is useful
+8 Quotations:
+  29:3 ¶ 6, in s2_r4
+A single widget. I prefer things to be together as Is the point of an IDE.
+  36:4 ¶ 8, in s2_r11
+Both, I think that these two pieces of information are important for better maintenance, as it makes the code clean and more maintainable.
+  37:4 ¶ 8, in s2_r12
+A widget in the existent dashboard would be better to preserve an holistic view of the software statistics.
+  40:13 ¶ 8, in s2_r15
+Nonetheless, having everything into the same dashboard would be interesting.
+  41:4 ¶ 8, in s2_r16
+Depends on the UI, but if the UI isn't too bloated, maybe widgets and graph would be fine.
+  42:3 ¶ 6, in s2_r17
+widgets, as it has greater flexibility.
+  44:13 ¶ 8, in s2_r19
+A widget,
+  45:6 ¶ 8, in s2_r20
+I think multiple widgets would do the trick
+  ○ 3-manual trigger is the preference
+6 Quotations:
+  49:1 ¶ 2, in s3_r3
+I would prefer it to be a configurable inspection to work the same way like other suggestions.
+  52:5 ¶ 2, in s3_r6
+I wouldn't immediately commit the changes to git.
+  54:3 ¶ 2, in s3_r8
+I'd prefer manual trigger.
+  55:1 ¶ 2, in s3_r9
+at my own discretion... I just prefer to execute by myself
+  60:3 ¶ 2, in s3_r14
+I prefer to execute at my own discretion
+  65:3 ¶ 2, in s3_r19
+at my own
+  ○ 3-refactoring suggestions must to consider the impact on legacy systems
+1 Quotations:
+  56:4 ¶ 2, in s3_r10
+It should consider the impact on refactoring, specially for legacy systems
+  ○ 3-show suggestions in the ide gui
+1 Quotations:
+  64:10 ¶ 6, in s3_r18
+I'd make these suggestions show up as a wiggly line below the affected code with the "auto fix" action being the patch application.
+  ○ 3-suggestions at commit time
+4 Quotations:
+  57:5 ¶ 2, in s3_r11
+refactore the code to be performed before committing.
+  59:3 ¶ 2, in s3_r13
+Normally, this kind of action should be enforced by a pre-commit mechanism
+  64:6 ¶ 2, in s3_r18
+Otherwise it could be triggered at commit time.
+  66:3 ¶ 2, in s3_r20
+This could be something that happens before committing
+  ○ 4-comments in prs are a good channel for communication
+1 Quotations:
+  70:3 ¶ 2, in s4_r3
+The bot should comment on the PR directly.
+  ○ 4-dashboard
+1 Quotations:
+  77:13 ¶ 6, in s4_r10
+CI job dashboard
+  ○ 4-evolution of quality metrics
+3 Quotations:
+  73:6 ¶ 4, in s4_r6
+More than time, it would be desirable to see the evolution of the numbers over time to show progress/degradation of the software.
+  77:10 ¶ 4, in s4_r10
+a graph of its evolution in the last week
+  80:6 ¶ 4, in s4_r13
+The difference between this version and the last one is a very good information
+  ○ 4-instant message could be used for notificaitons
+6 Quotations:
+  69:2 ¶ 4, in s4_r2
+slack channel
+  71:3 ¶ 6, in s4_r4
+maybe teams bot
+  72:3 ¶ 6, in s4_r5
+Slack channel, Teams or Google Space (depending on the tool used by the team).
+  73:3 ¶ 6, in s4_r6
+Showing the stats in slack channels (very often used by companies) is useful as well.
+  77:12 ¶ 6, in s4_r10
+Instant messaging
+  79:3 ¶ 6, in s4_r12
+slack / teams
+  ○ 4-mailing lists are good channels
+1 Quotations:
+  68:3 ¶ 6, in s4_r1
+None, mailing lists are flexible enough
+  ○ 4-metric that triggered the alert
+1 Quotations:
+  77:9 ¶ 4, in s4_r10
+The metric that triggered the alert, current value and threshold,
+  ○ 4-notification after each ci cyle
+2 Quotations:
+  72:1 ¶ 2, in s4_r5
+After each CI run a report could be sent
+  73:1 ¶ 2, in s4_r6
+For each CI cycle,
+  ○ 4-notifications should be sent based on a threshold
+3 Quotations:
+  69:3 ¶ 2, in s4_r2
+Only if a threshold is met.
+  77:6 ¶ 2, in s4_r10
+I need to consider emails I'd appreciate a setup in which I get an email after a threshold for a project I'm interested in is breached
+  78:1 ¶ 2, in s4_r11
+This could be useful if there is threshold, if x% of the code are code smells then notifies.
+  ○ 4-number of code smells
+1 Quotations:
+  79:6 ¶ 4, in s4_r12
+quantity of code smells
+  ○ 4-summary of data presented in the commiunication
+2 Quotations:
+  72:5 ¶ 4, in s4_r5
+A summary of data presented in the report
+  77:7 ¶ 2, in s4_r10
+summary of the tracked metrics once every week.
+  ○ 5-additional informaiton to help solving the issue
+2 Quotations:
+  82:6 ¶ 4, in s5_r2
+The warning should include additional info that helps to resolve an issue.
+  93:1 ¶ 2, in s5_r13
+It should include code snippets and possible improvements beyond the lines
+  ○ 5-command suggestion
+1 Quotations:
+  92:4 ¶ 8, in s5_r12
+Postpone, ignore.
+  ○ 5-command:mark code smells as false positives
+1 Quotations:
+  100:10 ¶ 8, in s5_r20
+like marking them as false positives.
+  ○ 5-feature or number story
+1 Quotations:
+  94:2 ¶ 4, in s5_r14
+The feature or user story number.
+  ○ 5-link to facilitate navigation
+1 Quotations:
+  101:2 ¶ 4, in s5_r21
+Maybe have a link for each smells for easier navigation.
+  ○ 5-long-term impact
+1 Quotations:
+  96:1 ¶ 2, in s5_r16
+Much clearer information about the long term problems with the smells.
+  ○ 5-notifies contributors to a specific module
+1 Quotations:
+  83:3 ¶ 6, in s5_r3
+It can notify the people that have contributed the code that the contributor wants to modify.
+  ○ 5-notify commit author
+1 Quotations:
+  93:2 ¶ 4, in s5_r13
+The commit author
+  ○ 5-number of code smells before PR
+1 Quotations:
+  95:4 ¶ 4, in s5_r15
+ossibly, how many code smells were present before the PR so that the reviwer can understand if they were introduced by the PR or not.
+  ○ 5-tech lead/architect
+3 Quotations:
+  92:7 ¶ 6, in s5_r12
+Tech Lead or Software Architect for follow-up and guidance
+  95:3 ¶ 6, in s5_r15
+The maintainer as well the Lead Developer / Architect of the software.
+  98:7 ¶ 6, in s5_r18
+Maybe the people responsible for the project
+  ○ 5-the warn should include standards
+1 Quotations:
+  97:2 ¶ 4, in s5_r17
+To follow the standards set by the team
