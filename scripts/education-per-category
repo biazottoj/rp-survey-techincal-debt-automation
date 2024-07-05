@@ -1,0 +1,97 @@
+category,respondent-education,respondent-id
+information to be provided/detailed information,Bachelor,s1_r21
+information to be provided/detailed information,Bachelor,s1_r23
+information to be provided/detailed information,Bachelor,s1_r25
+information to be provided/detailed information,Bachelor,s1_r4
+information to be provided/detailed information,Bachelor,s2_r14
+information to be provided/detailed information,Bachelor,s2_r16
+information to be provided/detailed information,Bachelor,s2_r2
+information to be provided/detailed information,Bachelor,s2_r21
+information to be provided/detailed information,Bachelor,s2_r4
+information to be provided/detailed information,Bachelor,s4_r7
+information to be provided/detailed information,Bachelor,s5_r13
+information to be provided/detailed information,Bachelor,s5_r21
+information to be provided/detailed information,Master,s1_r14
+information to be provided/detailed information,Master,s1_r15
+information to be provided/detailed information,Master,s2_r13
+information to be provided/detailed information,Master,s2_r6
+information to be provided/detailed information,Master,s2_r9
+information to be provided/detailed information,PhD,s1_r17
+information to be provided/detailed information,PhD,s1_r19
+information to be provided/detailed information,PhD,s2_r12
+information to be provided/detailed information,PhD,s2_r15
+information to be provided/detailed information,PhD,s2_r8
+information to be provided/detailed information,PhD,s5_r14
+information to be provided/detailed information,Unfinished bachelor,s2_r19
+information to be provided/detailed information,Unfinished bachelor,s4_r10
+information to be provided/detailed information,Unfinished bachelor,s5_r2
+information to be provided/grouped information,Bachelor,s2_r14
+information to be provided/grouped information,Bachelor,s4_r13
+information to be provided/grouped information,Bachelor,s5_r16
+information to be provided/grouped information,Master,s2_r11
+information to be provided/grouped information,Master,s2_r3
+information to be provided/grouped information,Master,s2_r9
+information to be provided/grouped information,Master,s3_r10
+information to be provided/grouped information,Master,s4_r12
+information to be provided/grouped information,Master,s4_r5
+information to be provided/grouped information,PhD,s2_r12
+information to be provided/grouped information,PhD,s2_r15
+information to be provided/grouped information,PhD,s4_r6
+information to be provided/grouped information,PhD,s5_r15
+information to be provided/grouped information,Unfinished bachelor,s4_r10
+tool usage/customization,Bachelor,s1_r21
+tool usage/customization,Bachelor,s1_r4
+tool usage/customization,Bachelor,s2_r20
+tool usage/customization,Bachelor,s2_r4
+tool usage/customization,Master,s5_r12
+tool usage/customization,Unfinished bachelor,s1_r2
+tool usage/customization,Unfinished bachelor,s1_r22
+tool usage/customization,Unfinished bachelor,s5_r20
+tool usage/tool execution/manual execution,Bachelor,s3_r14
+tool usage/tool execution/manual execution,Bachelor,s3_r19
+tool usage/tool execution/manual execution,Bachelor,s3_r3
+tool usage/tool execution/manual execution,Master,s3_r8
+tool usage/tool execution/manual execution,PhD,s3_r9
+tool usage/tool execution/threshold execution,Bachelor,s1_r21
+tool usage/tool execution/threshold execution,Bachelor,s1_r4
+tool usage/tool execution/threshold execution,Bachelor,s4_r11
+tool usage/tool execution/threshold execution,Bachelor,s4_r2
+tool usage/tool execution/threshold execution,Master,s1_r11
+tool usage/tool execution/threshold execution,Master,s1_r15
+tool usage/tool execution/threshold execution,Master,s1_r5
+tool usage/tool execution/threshold execution,Master,s1_r8
+tool usage/tool execution/threshold execution,PhD,s1_r13
+tool usage/tool execution/threshold execution,PhD,s1_r18
+tool usage/tool execution/threshold execution,Unfinished bachelor,s1_r2
+tool usage/tool execution/threshold execution,Unfinished bachelor,s1_r22
+tool usage/tool execution/threshold execution,Unfinished bachelor,s4_r10
+tool usage/tool execution/workflow execution,Bachelor,s3_r20
+tool usage/tool execution/workflow execution,Bachelor,s5_r13
+tool usage/tool execution/workflow execution,Bachelor,s5_r18
+tool usage/tool execution/workflow execution,Bachelor,s5_r3
+tool usage/tool execution/workflow execution,Master,s3_r11
+tool usage/tool execution/workflow execution,Master,s4_r5
+tool usage/tool execution/workflow execution,Master,s5_r12
+tool usage/tool execution/workflow execution,PhD,s3_r13
+tool usage/tool execution/workflow execution,PhD,s4_r6
+tool usage/tool execution/workflow execution,PhD,s5_r15
+tool usage/tool execution/workflow execution,Unfinished bachelor,s3_r18
+tool usage/tool interface,Bachelor,s2_r16
+tool usage/tool interface,Bachelor,s2_r17
+tool usage/tool interface,Bachelor,s2_r20
+tool usage/tool interface,Bachelor,s2_r4
+tool usage/tool interface,Bachelor,s4_r2
+tool usage/tool interface,Master,s1_r14
+tool usage/tool interface,Master,s2_r11
+tool usage/tool interface,Master,s4_r12
+tool usage/tool interface,Master,s4_r3
+tool usage/tool interface,Master,s4_r5
+tool usage/tool interface,PhD,s1_r17
+tool usage/tool interface,PhD,s2_r12
+tool usage/tool interface,PhD,s2_r15
+tool usage/tool interface,PhD,s4_r4
+tool usage/tool interface,PhD,s4_r6
+tool usage/tool interface,Unfinished bachelor,s2_r19
+tool usage/tool interface,Unfinished bachelor,s3_r18
+tool usage/tool interface,Unfinished bachelor,s4_r1
+tool usage/tool interface,Unfinished bachelor,s4_r10
