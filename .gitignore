@@ -4,8 +4,5 @@
 .vscode/
 gh-token.txt
 /scripts/data-collection.ipynb
-/data/*
-!data/codes-report-exported-from-atlasti.txt
-!data/requirements-and-respondents.csv
-!data/requirements-dataset.csv
-!data/respondents-dataset.csv
+/data/_old
+/scripts/_old

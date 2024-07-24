@@ -1,0 +1,12 @@
+\begin{table}[ht]
+\centering
+\footnotesize
+\caption{Number of indicators that support a theme, organized by the scenario from which the indicators were extracted.}
+\label{tab:indicators-per-concept}
+\begin{tabular}{lrrrrrr}
+\hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{concept}}} & \multicolumn{6}{c}{\textbf{number of indicators}} \\ 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{s1}} & \multicolumn{1}{c}{\textbf{s2}} & \multicolumn{1}{c}{\textbf{s3}} & \multicolumn{1}{c}{\textbf{s4}} & \multicolumn{1}{c}{\textbf{s5}} & \multicolumn{1}{c}{\textbf{total}}                                   \\ \hline
+\data
+\end{tabular}
+\end{table}

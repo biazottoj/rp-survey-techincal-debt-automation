@@ -1,6 +1,7 @@
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import csv
 
 
 def create_dataset_row(bot, issue, text_section='title', is_comment=False, comment_number=None, owner_project=None): 
@@ -58,3 +59,8 @@ def requests_retry_session(retries=5, backoff_factor=5, session=None):
     session.mount('https://', adapter)
 
     return session
+
+def load_csv_dataset(filename, dialect='excel', delimiter = ','):
+    with open(filename, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f, dialect=dialect, delimiter=delimiter)
+        return [row for row in reader]

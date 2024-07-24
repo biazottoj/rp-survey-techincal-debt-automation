@@ -1,0 +1,799 @@
+﻿id;document;content;codes
+02:02;s1_r2;Not really, only if you don't have anything better to do. Polishing the performance is usually done deliberately, either to meet a specific metric or when thing go wrong otherwise.;"1-generic td label is not useful for prioritization
+s1_q1"
+02:04;s1_r2;For developers - maybe? Management - definitely not. Manager are usually not qualified to triage the issue.;"1-notifications are not useful
+s1_q2"
+02:06;s1_r2;Manager are usually not qualified to triage the issue.;1-managers can not triage issues
+02:07;s1_r2;A bot that fills in the ticket missing fields based on how the rest of tickets are usually filled would be good.;"1-a bot could fill missing fields
+1-a bot help increase the quality of issue's description"
+02:08;s1_r2;A bot that fills in the ticket missing fields based on how the rest of tickets are usually filled would be good. In general, such notifications should not become yet another source of useless spam everyone automatically ignores.;"1-notifications are not useful
+concept-Notification Load
+s1_q3"
+02:11;s1_r2;The idea sounds good on the surface, but I very much doubt it would be useful without extensive intelligent customization options.;"1-customization options are necessary
+concept-Customization
+s1_q4"
+02:16;s1_r2;Polishing the performance is usually done deliberately, either to meet a specific metric or when thing go wrong otherwise.;"1-issue prioritization does not need immediate attention
+1-td issues does not have extra priority"
+03:02;s1_r3;The label would be useful;1-generic td label is useful for prioritization
+03:03;s1_r3;however if the ticket is related to technical debt, the creator itself can add the label. It is not so realistic that the description mentions tech debt, but the label is not added, especially if reports/filters are depending on it.;"1-the label should be manually added
+concept-Human Intervention"
+04:02;s1_r4;That would make sense in the scenario where a developer or a company is highly focused on a particular feature. Adding a label that notifies the manager and the developer on an issue around that feature would definitely help them. Otherwise, people might feel annoyed and consider this a spam.;"1-customization options are necessary
+1-notifications are useful
+concept-Customization
+s1_q2"
+04:05;s1_r4;It would be useful to categorize the issues so that people can find them easier.;"1-generic td label is useful for categorization
+concept-Information Abstraction"
+04:06;s1_r4;Priority is already used for prioritization. For example, blockers and critical take higher priority than any other issue.;1-there is already a solution for prioritizing issues
+04:07;s1_r4;That would make sense in the scenario where a developer or a company is highly focused on a particular feature. Adding a label that notifies the manager and the developer on an issue around that feature would definitely help them.;"1-notifications useufulness depends on the feature under development
+concept-Context-Dependent Solution
+concept-Contextual Factors"
+04:08;s1_r4;Otherwise, people might feel annoyed and consider this a spam.;"1-notifications frequency is a concern
+concept-Notification Load"
+04:09;s1_r4;You should only notify people that are interested.;"1-notifications should be sent to interested people only
+concept-Notification Load"
+04:11;s1_r4;It depends on the label that the bot is adding.;"1-the label quality is a concern
+concept-Tool Quality"
+04:13;s1_r4;There are scenarios where the label can be added automatically by the bot.;1-adding labels automatically may be useful
+04:22;s1_r4;But also there might be an issue that involves too many different aspects. What label should the bot use in that case? Can it assess the situation properly and propose more than 1 labels?;"1-the label quality is a concern
+concept-Tool Quality"
+04:23;s1_r4;You might also want to consider that in that case, users might want the bot to wait for confirmation on the labels, so that only the desired label will be added. Or all of them?;"1-customization options are necessary
+concept-Customization"
+04:24;s1_r4;You might also want to consider that in that case, users might want the bot to wait for confirmation on the labels, so that only the desired label will be added.;"concept-Human Intervention
+concept-Keep the Control"
+04:25;s1_r4;There might be a long conversation under an issue due to someone misunderstanding the situation. Who are you notifying? If it's the developer or the creator, jira will notify them anyway;"1-notifications are not useful
+1-there is already a solution for notifying people"
+05:01;s1_r5;I would not say it would be useful for direct prioritization, rather checking trends, comparisons between components. Selecting focus areas in a project, for middle to long term planning.;"1-generic td label is not useful for prioritization
+s1_q1"
+05:02;s1_r5;Developer yes, for manager it would be just noise.;"1-notifications should be sent to interested people only
+concept-Notification Load
+s1_q2"
+05:03;s1_r5;That's still a no for management. For management dashboards with trends are the way to look on the projects. Developers, this could reduce the noise/value ratio that would be good.;"1-notifications are not useful
+1-notifications should be sent to interested people only
+concept-Information Load
+s1_q3"
+05:07;s1_r5;rather checking trends, comparisons between components. Selecting focus areas in a project, for middle to long term planning.;"1-generic td label is useful for categorization
+concept-Information Abstraction"
+06:01;s1_r6;Yes, but rather more realistic example would be  security issue rather than tech debt;"1-generic td label is useful for prioritization
+1-td issues does not have extra priority
+s1_q1"
+06:02;s1_r6;No, prioritizing issues has its time, does not need immediate attention;"1-issue prioritization does not need immediate attention
+1-notifications are not useful
+s1_q2"
+06:03;s1_r6;Imminent danger;"1-notifications should be sent to drive immediate actons
+s1_q3"
+08:01;s1_r8;No. Prioritization should be done by the team or the individual that owns a component.;"1-generic td label is not useful for prioritization
+1-issue triage/prioritizartion must to involve humans
+concept-Human Intervention
+s1_q1"
+08:02;s1_r8;I don't see how a notification for this specific case makes sense. Jira notifications are awful in general, but addressing a specific case doesn't help that.;"1-notifications are not useful
+concept-Notification Load
+s1_q2"
+08:04;s1_r8;Auto-labeling in principle seems a bit interesting, but I tend to think that issue triage is best done as a human process.;"1-issue triage/prioritizartion must to involve humans
+concept-Human Intervention
+s1_q4"
+08:09;s1_r8;AFAIK Jira doesn't have any reasonable tooling for users to get notifications;1-jira does not have notifications feature
+08:14;s1_r8;Automatically getting CC'ed on issues based on how they are routed (i.e. which components and projects they pass through) would be pretty useful in general.;"1-customization options are necessary
+1-messages in issues is a good interface
+concept-Customization"
+09:02;s1_r9;No, and I think my previous answer covers this.;"1-notifications are not useful
+s1_q2"
+09:03;s1_r9;"I'm very skeptical that the designation of a particular problem as ""technical debt"" is useful to anyone";1-generic td label is not useful for prioritization
+09:09;s1_r9;I'm also skeptical about the anticipated quality of reported issues, though I recognize that this will vary widely between projects.;1-issue's description quality is a concern
+10:02;s1_r10;Not really, I am already overflown by notifications. I need less of them.;"1-notifications are not useful
+1-notifications frequency is a concern
+concept-Notification Load
+s1_q2"
+10:05;s1_r10;Functional, performance and security issues and esp the ones reported by customers will always have higher prio.;1-td issues does not have extra priority
+10:06;s1_r10;No, it would probably depriorize issues marked in such a way;1-generic td label is useful for prioritization
+11:01;s1_r11;Not useful for me, as I'd not trust the bot to properly label the issue by simply looking at the description.;"1-generic td label is not useful for prioritization
+1-the label quality is a concern
+concept-Tool Quality
+s1_q1"
+11:02;s1_r11;standard Jira notifications are enough from my experience;"1-there is already a solution for notifying people
+s1_q2"
+11:03;s1_r11;Yes, but it's unrelated to the bot described in this section.;"concept-Context-Dependent Solution
+concept-Contextual Factors
+s1_q3"
+13:03;s1_r13;maybe when technical debt achieve unacceptable threshold;"1-customization options are necessary
+1-notifications are useful when a project reach a threshold
+concept-Customization
+s1_q3"
+13:05;s1_r13;Considering that there is great diversity in a software development team, these tags help newcomers understand problems in their code;"1-generic td label usefulness depends on team/developer maturity
+concept-Contextual Factors"
+13:06;s1_r13;help leaders keep track of these types of problems.;1-generic td label can help keeping track of problems
+13:08;s1_r13;then managers could be annoyed by notifications.;"1-notifications frequency is a concern
+concept-Notification Load"
+13:10;s1_r13;not much, notifications are good, but technical debt may be common, then managers could be annoyed by notifications;1-notifications are not useful
+13:13;s1_r13;A good dashboard maybe is better;1-dashboard is an alternative to notifications
+14:01;s1_r14;Yes, based on the issue category we can have different SLAs and also have a dashboard to report data both internally or to the client (external).;"1-generic td label is useful for prioritization
+1-generic td label may help creating dashboards
+s1_q1"
+14:02;s1_r14;Yes, it can be an e-mail or a message in Slack (or any other similar tool).;"1-notifications are useful
+s1_q2"
+14:11;s1_r14;it can be an e-mail;1-notifications can be sent by e-mail
+14:12;s1_r14;a message in Slack (or any other similar tool).;1-notifications can be sent using instant message services
+15:01;s1_r15;"Sim, seria muito útil. No entanto, eu exergo que vem uma questão depois disso: o que o time de Engenharia está priorizando no momento? Um cenário para entender: no segundo semestre do ano passado o TD que estava sendo priorizado no Nubank era que cada time desenhasse a arquitetura de seus microserviços usando o C4 model. Então qualquer report de technical debt sobre código, deployment, teste, etc.. estava sendo ""não priorizado"". Só estou contando esse exemplo porque (eu não sei como você vai usar essa informação, de repente, num paper) seria interessante ligar a esse fato, de que sim, seria muito útil, desde que esteja alinhado às prioridades de TD naquele momento. Se não, vai virar só um card no Jira que vai ficar lá até não sei quando (kkkkkk - e isso acontece muito).";"1-generic td label is useful for prioritization
+s1_q1"
+15:02;s1_r15;Sim, principalmente para o developer (o developer, num cenário de Continuous Software Engineering, por exemplo, tem muita autonomia). Menos uma coisa pro manager se preocupar.;"1-notifications are useful
+concept-Customization
+s1_q2"
+15:06;s1_r15;Menos uma coisa pro manager se preocupar.;1-notifications may help reduce managers workload
+15:08;s1_r15;"Um cenário para entender: no segundo semestre do ano passado o TD que estava sendo priorizado no Nubank era que cada time desenhasse a arquitetura de seus microserviços usando o C4 model. Então qualquer report de technical debt sobre código, deployment, teste, etc.. estava sendo ""não priorizado"".";concept-Contextual Factors
+15:10;s1_r15;Só estou contando esse exemplo porque (eu não sei como você vai usar essa informação, de repente, num paper) seria interessante ligar a esse fato, de que sim, seria muito útil, desde que esteja alinhado às prioridades de TD naquele momento.;concept-Context-Dependent Solution
+16:01;s1_r16;Sim, pois nem sempre o desenvolvedor tem o contexto completo do sistema.;"1-generic td label is useful for prioritization
+s1_q1"
+16:02;s1_r16;Não necessariamente, pois mesmo com uma notificação, um p.o/analista/gerente deve fazer uma independete antes de autorizar a execução da tarefa.;"1-issue triage/prioritizartion must to involve humans
+concept-Human Intervention
+s1_q2"
+16:03;s1_r16;Em manutenções corretivas de urgência.;"1-notifications should be sent to drive immediate actons
+concept-Contextual Factors
+s1_q3"
+16:05;s1_r16;Não necessariamente;1-notifications are not useful
+17:01;s1_r17;Yes. Labels can help to categorize the issues and prioritize;"1-generic td label is useful for categorization
+1-generic td label is useful for prioritization
+concept-Information Abstraction
+s1_q1"
+17:02;s1_r17;Yes. They need to get instant the message and understand the priority;"1-notifications are useful
+1-notifications should be sent to drive immediate actons
+s1_q2"
+18:01;s1_r18;"Certainly, it is useful. I believe that if the bot receives appropriate ""training,"" it can assist in issue prioritization.";"1-generic td label is useful for prioritization
+s1_q1"
+18:03;s1_r18;As I previously mentioned, reaching a threshold can be considered a critical situation? If so, then the feature is useful.;"1-notifications are useful when a project reach a threshold
+1-notifications should be sent to drive immediate actons
+s1_q3"
+18:06;s1_r18;"I believe that if the bot receives appropriate ""training,"" it can assist in issue prioritization.";"1-the label quality is a concern
+concept-Tool Quality"
+18:08;s1_r18;This is a matter I consider highly context-dependent. Notification would be very useful in critical scenarios that require immediate actions.;"1-notification/label is context-dependent
+concept-Contextual Factors"
+18:09;s1_r18;Notification would be very useful in critical scenarios that require immediate actions.;"1-notifications should be sent to drive immediate actons
+concept-Contextual Factors"
+18:10;s1_r18;Otherwise, I don't find it as useful because issues are typically monitored with some frequency in software development projects.;"1-issue prioritization does not need immediate attention
+1-issue triage/prioritizartion must to involve humans
+concept-Human Intervention"
+18:17;s1_r18;This is a matter I consider highly context-dependent.;concept-Context-Dependent Solution
+19:01;s1_r19;Yes, since, normaly, technical debt issues don't need to be addressed urgently.;"1-generic td label is useful for prioritization
+s1_q1"
+19:02;s1_r19;Yes, because at the moment of issue creation more information can be added by the other members of the team.;"1-notifications are useful
+s1_q2"
+19:04;s1_r19;technical debt issues don't need to be addressed urgently.;1-td issues does not have extra priority
+19:06;s1_r19;because at the moment of issue creation more information can be added by the other members of the team.;1-other team meambers can add info about an issue
+20:01;s1_r20;It very much depends on what you are using Jira for, how you are using Jira and/or if you are using Jira at all.;"1-notification/label is context-dependent
+concept-Contextual Factors
+s1_q1"
+20:02;s1_r20;Probably not as there is a high risk that you are flooded with notifications and notification will soon be lost if you does not tackle it immediately.;"1-notifications are not useful
+1-notifications frequency is a concern
+1-notifications should be sent to drive immediate actons
+concept-Notification Load"
+20:04;s1_r20;"Still ""technical debt"" is subjective where on think it is is low whereas another think it is. But you anyway will do changes ""close to"" subject you can anyway look at it.";"1-generic td label is not useful for prioritization
+s1_q4"
+21:01;s1_r21;Yes, I believe the labeling of the issues would help in the categorization of the problems that need tracking.;"1-generic td label can help keeping track of problems
+1-generic td label is useful for categorization
+concept-Information Abstraction
+s1_q1"
+21:08;s1_r21;maybe just add a control so it doesn't notify for not so important labels?;"1-customization options are necessary
+concept-Customization
+concept-Notification Load"
+21:09;s1_r21;Yes, depending on the label it would be cool,;1-notifications are useful
+22:01;s1_r22;Yes. It would be easier to maintain a balance between working on new code vs tackling tech debt of old code.;"1-generic td label is useful for prioritization
+s1_q1"
+22:11;s1_r22;And even without instant notifications, when the issue is reviewed the message offering the label will be there as the last interaction.;"1-generic td label is useful for prioritization
+1-messages in issues is a good interface"
+22:12;s1_r22;You should be able to configure queries and notifications based on the labels, for example.;"1-customization options are necessary
+concept-Customization"
+22:13;s1_r22;but that would require a way to decline the offer too.;"1-customization options are necessary
+concept-Customization
+concept-Keep the Control"
+22:14;s1_r22;The only scenario that I think might be useful is notifying about not addressed tickets,;1-notification are useful for not lingering tickets
+22:15;s1_r22;the bot offering the label might be good to help teams that don't tackle tech debt yet, but it will end up adding cognitive load and noise to more mature teams.;"1-generic td label usefulness depends on team/developer maturity
+concept-Contextual Factors"
+22:18;s1_r22;I don't think so. Jira and other ticketing systems already have their own notification systems.;"1-notifications are not useful
+1-there is already a solution for notifying people"
+22:20;s1_r22;Interested stakeholders can monitor these;"1-customization options are necessary
+1-notifications should be sent to interested people only
+concept-Customization
+concept-Notification Load"
+22:21;s1_r22;but it will end up adding cognitive load and noise to more mature teams.;concept-Information Load
+23:02;s1_r23;Yes, in my experience, tech debt tasks usually got lost in the backlog.;"1-notifications are useful
+s1_q2"
+23:03;s1_r23;The label would be useful to categorize tasks;1-generic td label is useful for prioritization
+23:04;s1_r23;The label would be useful to categorize tasks, not so sure if it would be useful to define the tasks priority;1-generic td label is not useful for prioritization
+23:05;s1_r23;tech debt tasks usually got lost in the backlog;"1-generic td label usefulness depends on team/developer maturity
+concept-Contextual Factors"
+23:07;s1_r23;The label would be useful to categorize tasks;"1-generic td label is useful for categorization
+concept-Information Abstraction"
+25:01:00;s1_r25;Yes, so the task can be done as soon as possible.;"1-generic td label is useful for prioritization
+s1_q1"
+25:02:00;s1_r25;Yes, that would make the team aware of the problem.;"1-notifications are useful
+s1_q2"
+25:05:00;s1_r25;Keeping track of tasks and specially technical debts can be hard sometimes,;1-generic td label can help keeping track of problems
+25:06:00;s1_r25;having notifications of the issues and a good prioritization is a good way to manage it.;1-notifications are useful
+26:01:00;s2_r1;In practice, I learned that lists of smells do not bring any value and only distract developers.;"2-lists of smells are not useful
+s2_q1"
+26:03:00;s2_r1;Neither, I wouldn't use such a dashboard.;"2-td dashboard is not useful
+s2_q4"
+26:04:00;s2_r1;"I believe the premise of ""code smells"" is deeply flawed and the whole idea ""code smell dashboard"" goes in the wrong direction.";"2-dashboard of code smells is not useful
+s2_q6"
+26:05:00;s2_r1;Suggestion would be good;2-suggestions of issues to be addressed are useful
+26:06:00;s2_r1;but good suggestions are hard and I am yet to see a tool that does that.;"2-suggestions' quality is a concern
+concept-Tool Quality"
+26:07:00;s2_r1; practice, I learned that lists of smells do not bring any value and only distract developers.;"2-lists of smells distract developers/managers
+concept-Information Load"
+27:01:00;s2_r2;No, here I would be interested mainly in the trend, if it grows or decreases over time. Maybe a list of types and their number of appearance would be useful.;2-lists of smells are not useful
+27:02:00;s2_r2;I doubt the tool can pick up the right items to address first.;"2-suggestions' quality is a concern
+concept-Tool Quality
+s2_q3"
+27:04:00;s2_r2;I would be interested mainly in the trend, if it grows or decreases over time.;"2-presenting results over time is useful
+concept-Information Abstraction"
+27:05:00;s2_r2;Maybe a list of types and their number of appearance would be useful.;"2-group smells by type
+concept-Information Abstraction"
+28:01:00;s2_r3;Sure. This is basically visualizing linter results over time, which is nice to have.;"2-lists of smells are useful
+2-presenting results over time is useful
+s2_q1"
+28:03:00;s2_r3;Don't care.;"2-td dashboard is not useful
+s2_q4"
+28:06:00;s2_r3;"Assuming ""code smells"" are specific linter results, then I'd expect some link to a description of the lint check";2-a link to the full report is useful
+28:07:00;s2_r3;Some linting toolchains can just fix things, so they should do that.;2-tools that fix problems should do it
+28:08:00;s2_r3;Prioritizing which ones to fix seems hard and likely to have false positives (e.g. you might think prioritizing security would be good, but gosec lint checks are almost always useless).;"2-suggestions' quality is a concern
+concept-Tool Quality"
+30:01:00;s2_r5;Code smell should not be allowed to enter the code base in the first place. This kind of dashboards is solving a wrong problem.;"2-code smells should not be inserted in the code base
+s2_q6"
+31:04:00;s2_r6;"Nothing that can't be handled now by JQL filter involving a label ;)";"2-there is already a solution for grouping issues
+s2_q4"
+31:05:00;s2_r6;Can't tell... Just usual information - created/reporter/...;"2-group issues by reporter
+concept-Information Abstraction
+s2_q5"
+31:06:00;s2_r6;because code smells are handled well by some static code analyzers;2-static code analyzers are better to handle code smells
+31:07:00;s2_r6;I'm a bit reluctant towards auto-labeling issues as Technical Debt.;"2-auto-labeling is a concern
+concept-Tool Quality"
+31:08:00;s2_r6;"I like the idea of ""issues without comments""";2-number of issues without comments may be useful
+31:09:00;s2_r6;"""jira description smell""";2-bad issue description should be reported
+31:10:00;s2_r6;group them by reporter;"2-group issues by reporter
+concept-Information Abstraction"
+31:11:00;s2_r6;But if the labeling involves humans, a Jira label would indeed be useful.;"2-labeling should be done buy humans
+concept-Human Intervention
+concept-Keep the Control"
+31:12:00;s2_r6;Such tasks should rather (again - from my experience) not be prioritized - usually there's no pressure solving Technical Debt issues.;2-td issues have lower priority
+31:13:00;s2_r6;"These are rather good candidates for ""hackatons"" where knowledge is shared between experienced and new developers.";2-td issues can be solved in hackatons
+31:14:00;s2_r6;Working in a pair/team to solve such TD issue would be a great introduction to the code without changing usual release schedule.;2-solving issues in hackatons help to solve problems without changing the release schedule
+31:15:00;s2_r6;This is highly context-dependent;"2-issue suggestions are context-dependent
+concept-Context-Dependent Solution"
+31:16:00;s2_r6;Humans are better (IMO) in prioritizing than bots.;"2-issue prioritization should be done by humans
+concept-Human Intervention"
+31:20:00;s2_r6;In my work, PMs have many jira dasboards groupping JIRAs per label, release, deadline, etc.;"concept-Contextual Factors
+concept-Information Abstraction"
+33:03:00;s2_r8;Yes;"2-suggestions of issues to be addressed are useful
+s2_q3"
+33:04:00;s2_r8;both are useful, but for different situations;"2-td dashboard is useful
+s2_q4"
+33:07:00;s2_r8;maybe displaying a list of smells could hinder visualizations of achieving their goal which is to alert the managers;2-lists of smells distract developers/managers
+33:08:00;s2_r8;their goal which is to alert the managers;2-dashboards serve to alert managers
+33:09:00;s2_r8;maybe a classification of which types of code smells are more common in each repository,;"2-group smells by type
+concept-Information Abstraction"
+33:10:00;s2_r8;But it would help managers to comprehend which are the weaknesses in their development team;"2-group smells by type
+concept-Information Abstraction"
+33:11:00;s2_r8;as a developer i would like to see which debts are most common,;"2-group td items by type
+concept-Information Abstraction"
+33:14:00;s2_r8;maybe displaying a list of smells could hinder visualizations of achieving their goal which is to alert the managers;concept-Information Load
+34:04:00;s2_r9;Dedicated, to keep it simple and easy to communicate the status.;"2-dedicated td dashboard facilitates communication
+s2_q4"
+34:06:00;s2_r9;"Yes, but perhaps the ""top"" types of smells to keep the dashboard simple.";"2-group smells by type
+concept-Information Abstraction"
+34:07:00;s2_r9;It could be a categorized list.;2-group smells by type
+34:08:00;s2_r9;Issue age;2-issue age
+34:09:00;s2_r9;owner;2-issue owner
+34:10:00;s2_r9;Yes, it helps to define priorities.;2-amount of issues with td is useful for prioritization
+34:11:00;s2_r9;Yes;2-suggestions of issues to be addressed are useful
+34:12:00;s2_r9;but based on severity and business impact. It would be useful to act faster and reduce the impacts on the application.;2-suggesting issues to be solved based on the business impact
+34:13:00;s2_r9;Severity;2-severity of td should be present in a dedicated td dashboard
+34:14:00;s2_r9;age;2-td age should be present in a dedicated td dashboard
+34:15:00;s2_r9;business impact;2-business impact of td should be present in a dedicated td dashboard
+34:17:00;s2_r9;It could be a categorized list.;concept-Information Abstraction
+36:04:00;s2_r11;Both, I think that these two pieces of information are important for better maintenance, as it makes the code clean and more maintainable.;"2-dedicated td dashboard facilitates communication
+2-dedicated td dashboard is useful
+2-widget is useful
+s2_q4"
+36:05:00;s2_r11;The dashboard presented in my SonarQube already demonstrates important information to be used, such as the amount of code present in the system, percentage of code coverage and critical smells.;"2-sonarqube dashboard is enough
+s2_q5"
+36:07:00;s2_r11;Yes, I believe that the SonarQube should present the smells. One reason is that the SonarQube a crucial tool for enhancing code quality by identifying and eliminating code smells and verifying code coverage. It promotes cleaner and more maintainable code.;2-the list of smells should be consulted in sonarqube
+36:08:00;s2_r11;Test code coverage;2-test code coverage could be combined with the amounts of issues with td
+36:09:00;s2_r11;critical issues;2-critical issues should be combined with td issues
+36:10:00;s2_r11;code metrics;2-code metrics should be combined with td issues
+36:11:00;s2_r11;enabling them to provide comprehensive insights to clients;2-information about td can help in providing insights to clients
+36:12:00;s2_r11;guide informed decision-making;2-information about td can support decision-making
+36:13:00;s2_r11;As a technical leader, I think it is important to demonstrate mainly the files and not just the package, as it helps me to assist new development members in the process of creating cleaner code.;"2-organizing smells per file helps new development members
+concept-Information Abstraction"
+36:14:00;s2_r11;I think that is important when the SonarQube demonstrated where exist the code smell.;2-suggestions of issues to be addressed are useful
+37:03:00;s2_r12;Yes, because that would bring more information about the origins of this issues as well insights on how to address it.;"2-suggestions of issues to be addressed are useful
+s2_q3"
+37:04:00;s2_r12;A widget in the existent dashboard would be better to preserve an holistic view of the software statistics.;"2-widget is useful
+s2_q4"
+37:05:00;s2_r12;because the package/file division would help on prioritize the issues on focusing the team efforts in specific parts of the software.;2-group code smells per package
+37:06:00;s2_r12;Yes;2-group code smells per package
+37:07:00;s2_r12;division would help on prioritize the issues on focusing the team efforts in specific parts of the software.;"2-group code smells per package
+concept-Information Abstraction"
+37:08:00;s2_r12;data of creation;2-issue age
+37:09:00;s2_r12;traceability of other issues related with that package/file;"2-link to other issues relatd to same package/file
+concept-Information Abstraction"
+37:10:00;s2_r12;the traceability of other issues related with that package/file along the time, e.g., stories, bugs, and others.;2-presenting results over time is useful
+37:11:00;s2_r12;holistic view of the software statistics.;2-multiples widgets presever holistic view
+37:13:00;s2_r12;Yes;concept-Information Abstraction
+37:18:00;s2_r12;because the package/file division would help on prioritize the issues on focusing the team efforts in specific parts of the software.;concept-Information Abstraction
+38:06:00;s2_r13;A list with smells grouped by type;"2-group smells by type
+concept-Information Abstraction"
+38:07:00;s2_r13;sorted by occurrences would be better;2-sort smells by number of occurences
+38:08:00;s2_r13;Time since the issue was open;2-issue age
+38:09:00;s2_r13;technical debt criticality;2-severity of td should be present in a dedicated td dashboard
+38:10:00;s2_r13;Yes, it would be useful if the dashboard present suggestions;2-suggestions of issues to be addressed are useful
+38:11:00;s2_r13;however, the criteria used to select the issues is hardest part IMO.;"2-suggestions' quality is a concern
+concept-Tool Quality"
+38:12:00;s2_r13;Dedicated dashboard for technical debt;2-dedicated td dashboard is useful
+38:13:00;s2_r13;it'll be clear to identify and read the information and I'll be able to go deeper on investigating the issues.;2-dedicated td dashboard facilitates communication
+39:02:00;s2_r14;I think you need to provide a true cost/time impact of the smell. Money/time is the only thing that where I am employeed.;"2-business impact of td should be present in a dedicated td dashboard
+s2_q2"
+39:03:00;s2_r14;No clue really. It very much depends on the circunmstances and the general maturity of the organizations when it comes to technical debet.;"2-dashaboard/widget depends of the team's maturity to manage td
+concept-Contextual Factors
+s2_q4"
+39:05:00;s2_r14;It must be organized by a larger element than a source cose file;"2-group code smells per package
+concept-Information Abstraction"
+39:06:00;s2_r14;and if you are having a hierarchic system-/product structure every hierarchical level should aggregate to the levels above.;2-group code smells by level
+39:07:00;s2_r14;and if you are having a hierarchic system-/product structure every hierarchical level should aggregate to the levels above.;concept-Information Abstraction
+40:04:00;s2_r15;Either works for me as I am comfortable switching between multiple tools in my workflow. Nonetheless, having everything into the same dashboard would be interesting.;"2-widget is useful
+concept-Information Abstraction
+s2_q4"
+40:09:00;s2_r15;Prioritization is always a matter of what brings more value to the business (or open source project). Theoretically speaking, that would be the issue that has the highest amount of technical debt interest paid in the recent period and that has a high chance to accumulate  more interest in the near future.;"2-business impact of td should be present in a dedicated td dashboard
+2-td interest could be combined"
+40:14:00;s2_r15;Overall quality (as a % of the total possible, or as a rating);2-quality rate could be presented in a dedicated dashboard
+40:15:00;s2_r15;trend (am I improving?);2-presenting results over time is useful
+40:16:00;s2_r15;Every company has its own metrics and its own ways of keeping track of issues and technical debt (some don't even do it). Therefore I think it's very hard to find a solution that fits all.;"2-issue suggestions are context-dependent
+2-no one-size-fits-all solution
+concept-Context-Dependent Solution"
+40:17:00;s2_r15;Moreover, even if you propose them a valid solution, they might not want to because it might alter their workflow.;concept-Workflow Consistency
+40:28:00;s2_r15;"To me, the crucial information that needs to be present should answer to the question ""Where do I have to have a look at?""/""What's important right now?""/""What needs me?"".";"2-customization options are necessary
+concept-Customization
+concept-Information Load"
+40:29:00;s2_r15;"1. New issues since last time I logged in;";2-new issues since last login
+40:30:00;s2_r15;2. Number of issues with new comments;2-issues with new comments
+40:31:00;s2_r15;Also, it would be nice to have a link to the issues in points 1 & 2 as well as in the dashboard.;2-a link to the full report is useful
+40:32:00;s2_r15;The list of smells is strictly during the phase of development, whereas this dashboard looks more like just for monitoring.;2-list of smells help in development phase
+40:33:00;s2_r15;. It would also be useful to have a view for each file what issue affects it. This could help identifying maintenance hotspots and solving multiple issues by refactoring 1 or 2 files (over multiple commits obviously).;"2-suggestions may help to identify maintainance hotspots
+concept-Information Abstraction"
+40:34:00;s2_r15;metrics on issues and TD;2-code metrics should be combined with td issues
+40:35:00;s2_r15;Nonetheless, having everything into the same dashboard would be interesting.;concept-Workflow Consistency
+41:02:00;s2_r16;I believe the time the issue was open is a good idea.;"2-issue age
+s2_q2"
+41:04:00;s2_r16;Depends on the UI, but if the UI isn't too bloated, maybe widgets and graph would be fine.;"2-widget is useful
+s2_q4"
+41:05:00;s2_r16;Yes, I believe a package/file organization would be easier to find,;"2-group code smells per package
+concept-Information Abstraction"
+41:06:00;s2_r16;but maybe the nesting would be a problem.;2-group code smells per package
+41:07:00;s2_r16;Yes,;2-suggestions of issues to be addressed are useful
+41:08:00;s2_r16;that would help the developer find the issues faster, so it would make the work flow better.;2-suggesting issues to be solved helps in productivity
+41:09:00;s2_r16;but if the UI isn't too bloated;"2-how much info is presented in the UI is a concern
+concept-Information Load"
+41:10:00;s2_r16;but maybe the nesting would be a problem.;concept-Information Abstraction
+42:01:00;s2_r17;A list, to get an overview of the problems.;"2-list of smells helps in overview
+2-lists of smells are useful
+s2_q1"
+42:02:00;s2_r17;Who created technical debt.;"2-the issue author could be combined
+s2_q2"
+42:03:00;s2_r17;widgets, as it has greater flexibility.;"2-widget is useful
+2-widgets are more flexible
+s2_q4"
+44:05:00;s2_r19;If you went out of your way to create a dashboard with information from SonarQube, I'd consider creating the dashboard in SonarQube directly instead.;"2-sonarqube dashboard is enough
+2-the list of smells should be consulted in sonarqube
+s2_q6"
+44:06:00;s2_r19;A list grouped by package/file would be interesting to identify hotspots to be tackled first.;"2-suggestions may help to identify maintainance hotspots
+concept-Information Abstraction"
+44:07:00;s2_r19;The actual number would be less relevant here,;2-number of smells is not useful
+44:08:00;s2_r19;the order of modules/packages/files with more smells would be the key information here.;"2-numer of issues per package
+concept-Information Abstraction"
+44:09:00;s2_r19;Age definitely helps here;2-issue age
+44:10:00;s2_r19;Code smell that are older most likely are dealt with in a different way, through workarounds, better abstractions on top, tests that guarantees stability, etc.;2-older code smells demands more actions
+44:11:00;s2_r19;Maybe you can create an algorithm to suggest a bite-sized list of smells that could be tackled next.;2-suggestins few smells to be solved is useful
+44:12:00;s2_r19;But that depends a lot on which processes each team runs, and their capacity for technical debt repaying work.;"2-workflow
+concept-Workflow Consistency"
+44:13:00;s2_r19;A widget,;2-widget is useful
+44:14:00;s2_r19;so technical debt information can be present in the main views at all times.;2-multiples widgets presever holistic view
+44:16:00;s2_r19;Maybe you can create an algorithm to suggest a bite-sized list of smells that could be tackled next.;concept-Information Load
+45:01:00;s2_r20;No, you have this data on sonarqube already.;"2-sonarqube dashboard is enough
+2-the list of smells should be consulted in sonarqube
+s2_q1"
+45:02:00;s2_r20;The issues priority and points.;"2-issu priority
+s2_q2"
+45:03:00;s2_r20;It could be useful in certain scenarios.;"2-issue suggestions are context-dependent
+concept-Context-Dependent Solution
+s2_q3"
+45:06:00;s2_r20;I think multiple widgets would do the trick;2-widget is useful
+45:07:00;s2_r20;it’s easier than navigate between different dashboards for shared data.;2-multiple dashboars may be hard to navigate
+45:08:00;s2_r20;the dashboard could get bloated if the number of repositories get too big;"2-how much info is presented in the UI is a concern
+concept-Information Load"
+45:09:00;s2_r20;but you could filter by an specific project;"2-customization options are necessary
+concept-Customization"
+46:05:00;s2_r21;Yes, i think it would be better if they are grouped by packages/files so we can identify where we have more code smells,;"2-suggestions may help to identify maintainance hotspots
+concept-Information Abstraction"
+46:06:00;s2_r21;and later on even identify why we have that much code smells in that part of the application.;"2-group code smells per package
+concept-Information Abstraction"
+46:07:00;s2_r21;In my opinion technical debt is part of the backlog and shouldn't be presented in a separated way;2-td is part of the backlog
+46:08:00;s2_r21;since it can give the wrong idea of less important issue, so i would present it as a widget together with an existing dashboard.;2-multiples widgets presever holistic view
+46:09:00;s2_r21;knowing how long that technical debt is pending;2-td age should be present in a dedicated td dashboard
+46:11:00;s2_r21;which files are part of it can helps a lot, also a comparition of the amount of bugs we have in the same files/packages can be useful, so we can have a real demonstration of the problem that the tech debt is causing.;2-number of bugs per file can help understand td impact
+46:12:00;s2_r21;if the dashboard present the number of bugs related to those files, we can have a better way to prioritize the tasks, since the tech debt can be directly related to the amount of bugs that part of application is having.;"2-issue prioritization should be done by humans
+concept-Human Intervention"
+48:01:00;s3_r2;I'd prefer both, depending on my mood, how well the suggestion fit the piece of code and how annoyed I'm by the tool.;"concept-Information Load
+s3_q1"
+48:03:00;s3_r2;In my experience such suggestions are either too simplistic, miss the mark or don't detect most interesting situations worthy of developer attention.;"3-accuracy is a concern
+concept-Tool Quality
+s3_q3"
+48:04:00;s3_r2;I'd prefer both, depending on my mood, how well the suggestion fit the piece of code and how annoyed I'm by the tool.;3-tools acting proactively might annoy developers
+48:05:00;s3_r2;I'd prefer both;3-reactive and proactive solutions are useful
+48:06:00;s3_r2;how well the suggestion fit the piece of code;"3-accuracy is a concern
+concept-Tool Quality"
+48:08:00;s3_r2;Within IDE for my own code;3-ide plugin is useful
+48:09:00;s3_r2;external tool for code reviews.;3-external tool is useful for code review
+48:10:00;s3_r2;Within IDE for my own code;concept-Workflow Consistency
+49:01:00;s3_r3;I would prefer it to be a configurable inspection to work the same way like other suggestions.;"3-customization options are necessary
+3-manual trigger is the preference
+concept-Customization
+concept-Human Intervention
+s3_q1"
+49:03:00;s3_r3;I would prefer an IDE plugin;"3-ide plugin is useful
+concept-Workflow Consistency"
+49:04:00;s3_r3;and the tool can also make mistakes;"3-accuracy is a concern
+concept-Tool Quality"
+49:05:00;s3_r3;I want the control over when, how and what I apply.;"3-developers want to have control
+concept-Customization
+concept-Keep the Control"
+51:02:00;s3_r5;Within the IDE so that all my IDE configuration is active while reviewing the changes.;"3-ide plugin is useful
+concept-Workflow Consistency
+s3_q2"
+51:04:00;s3_r5;Proactively since it'd be good to see suggestions on the fly. The performance must be good though.;3-proactive solution is useful
+51:05:00;s3_r5;The performance must be good though.;"3-performance is a concern
+concept-Tool Quality"
+52:02:00;s3_r6;Within the IDE;"3-ide plugin is useful
+concept-Workflow Consistency
+s3_q2"
+52:04:00;s3_r6;I would rather prefer to run a test before considering the refactoring as good!;"3-accuracy is a concern
+concept-Tool Quality"
+52:05:00;s3_r6;I wouldn't immediately commit the changes to git.;"3-manual trigger is the preference
+concept-Human Intervention"
+53:01:00;s3_r7;Depends on what such refactoring proposal tool actually does. One of my colleagues seems to blindly accept all of those and the result is a pure DRY code that is hard to read.;"concept-Human Intervention
+concept-Tool Quality
+s3_q3"
+53:02:00;s3_r7;One of my colleagues seems to blindly accept all of those and the result is a pure DRY code that is hard to read.;"3-refactoring actions demand review
+concept-Human Intervention"
+53:03:00;s3_r7;Depends on what such refactoring proposal tool actually does. One of my colleagues seems to blindly accept all of those and the result is a pure DRY code that is hard to read;Depends on what such refactoring proposal tool actually does. One of m
+54:03:00;s3_r8;I'd prefer manual trigger.;3-manual trigger is the preference
+54:04:00;s3_r8;Also the example from screenshot is quite artificial - I'd like to see more examples.;3-more examples are necessary
+54:05:00;s3_r8;in IDE it's easier to analyze the suggested change in the context of other code;"3-ide plugin is useful
+concept-Workflow Consistency"
+54:06:00;s3_r8;A patch needs to be applied to get reviewed, because auto-patches (from my experience) always require human validation.;3-refactoring actions demand review
+54:07:00;s3_r8;I'd prefer manual trigger.;concept-Human Intervention
+54:08:00;s3_r8;A patch needs to be applied to get reviewed, because auto-patches (from my experience) always require human validation.;concept-Human Intervention
+55:01:00;s3_r9;at my own discretion... I just prefer to execute by myself;"3-manual trigger is the preference
+concept-Human Intervention
+s3_q1"
+55:04:00;s3_r9;as a developer I prefer it on IDE;"3-ide plugin is useful
+concept-Workflow Consistency"
+56:02:00;s3_r10;Within the IDE, it may increase the productivity.;"3-ide plugin is useful
+3-plugin suggesting refactoring within ide may increase productivity
+concept-Workflow Consistency
+s3_q2"
+56:03:00;s3_r10;and let the developer to evaluate it.;"3-refactoring actions demand review
+concept-Human Intervention"
+56:04:00;s3_r10;It should consider the impact on refactoring, specially for legacy systems;3-refactoring suggestions must to consider the impact on legacy systems
+56:05:00;s3_r10;One need to assess if there will be enough time to both develop and test the code changes performed by the refactoring.;"3-refactoring actions demand review
+concept-Human Intervention"
+56:06:00;s3_r10;If there are automated tests covering the code, then this risk can be mitigated.;"3-refactoring actions demand review
+concept-Human Intervention"
+57:04:00;s3_r11;I already use a plugin that provide refactoring code in IntelliJ (SonarLint).;3-There is a soluution already in place
+57:05:00;s3_r11;refactore the code to be performed before committing.;"3-suggestions at commit time
+concept-Workflow Consistency"
+57:06:00;s3_r11;Both help to improve the code, mainly in standardization and maintainability.;3-tools that suggest refactoring action helps in standarization and maintainability
+57:07:00;s3_r11;I already use both within the IDE and externally.;3-ide plugin and external tool are similarly useful
+59:03:00;s3_r13;Normally, this kind of action should be enforced by a pre-commit mechanism;"3-suggestions at commit time
+concept-Workflow Consistency"
+59:04:00;s3_r13;continuous integration step prior to the release branch integration;"3-refactoring suggestions must to be considered as a continuos intergration step
+concept-Workflow Consistency"
+59:05:00;s3_r13;developers tend to not use overtime or even worse, part of the team uses and part of the team don't compromising the standardization of the development.;3-refactoting suggestions may harm standarization
+59:06:00;s3_r13;External tool as explained in the previous question.;3-external tool is useful for code review
+59:07:00;s3_r13;Use such a plugin within the IDE is good for an option, but having only the plugin is not a good solution.;3-use only an ide plugin is not useful
+60:03:00;s3_r14;I prefer to execute at my own discretion;"3-manual trigger is the preference
+concept-Human Intervention"
+60:04:00;s3_r14;I prefer to execute at my own discretion, simply because I prefer to have more control over my code.;"3-developers want to have control
+concept-Human Intervention
+concept-Keep the Control"
+60:05:00;s3_r14;But if it's proactive like code formatting is nowadays, would be awesome.;3-code format can be done proactively
+60:06:00;s3_r14;Within the IDE;"3-ide plugin is useful
+concept-Workflow Consistency"
+60:07:00;s3_r14;I don't like to install external tools when working on an IDE;"3-ide plugin is useful
+concept-Workflow Consistency"
+61:01:00;s3_r15;i prefer proactively, i want to execute a plugin do check my code, i want a plugin give me de suggestion on time, when i coding;"3-reactive and proactive solutions are useful
+s3_q1"
+61:02:00;s3_r15;i prefer within the IDE;"3-ide plugin is useful
+concept-Workflow Consistency
+s3_q2"
+62:01:00;s3_r16;The preference for a recommendation system will depend on its granularity. If it is at the code level, I would prefer a proactive recommendation system. However, for component or service-level recommendations, I would rather have a global system that allows recommendations to be triggered at my discretion.;"concept-Context-Dependent Solution
+s3_q1"
+62:03:00;s3_r16;"Nowadays, there is an abundance of AI tools available for code refactoring and suggestions; however, issues still persist regarding the accuracy and reliability of these recommendations.";"3-accuracy is a concern
+concept-Tool Quality
+s3_q3"
+62:04:00;s3_r16;The preference for a recommendation system will depend on its granularity. If it is at the code level, I would prefer a proactive recommendation system. However, for component or service-level recommendations, I would rather have a global system that allows recommendations to be triggered at my discretion.;3-manual or practive solutions depend on the granularity
+62:05:00;s3_r16;If it is at the code level, I would prefer a proactive recommendation system.;3-proactive solutions for code changes
+62:06:00;s3_r16;However, for component or service-level recommendations, I would rather have a global system that allows recommendations to be triggered at my discretion.;"3-manual or practive solutions depend on the granularity
+concept-Human Intervention"
+62:07:00;s3_r16;At code level I will prefer within the IDE primary due to its usability features, such as Copilot, CodeGPT, and similar aids.;"3-code level suggestions within IDE
+concept-Workflow Consistency"
+62:08:00;s3_r16;When it comes to component or service-level tasks, my reliance will be on the tool's accuracy and precision. Should there be a need for an external tool to accomplish these tasks effectively, I am open to utilizing such external resources.;"3-accuracy is a concern
+concept-Tool Quality"
+64:04:00;s3_r18;Proactively if not at a relevant performance cost. Otherwise it could be triggered at commit time.;3-proactive solution is useful
+64:05:00;s3_r18;if not at a relevant performance cost;"3-performance is a concern
+concept-Tool Quality"
+64:06:00;s3_r18;Otherwise it could be triggered at commit time.;"3-suggestions at commit time
+concept-Workflow Consistency"
+64:07:00;s3_r18;Within the IDE.;"3-ide plugin is useful
+concept-Workflow Consistency"
+64:08:00;s3_r18;Leave the decision of accepting the suggestion to the developer and don't fill Git with automated patches.;"3-developers want to have control
+concept-Keep the Control"
+64:09:00;s3_r18;Most changes can go together with code changes silently, without creating extra entries in the repository history.;3-accepted suggestions do not need extra entries on the repository
+64:10:00;s3_r18;"I'd make these suggestions show up as a wiggly line below the affected code with the ""auto fix"" action being the patch application.";"3-show suggestions in the ide gui
+concept-Workflow Consistency"
+65:02:00;s3_r19;with IDE because its comfortable;"3-ide plugin is useful
+concept-Workflow Consistency
+s3_q2"
+65:03:00;s3_r19;at my own;"3-manual trigger is the preference
+concept-Human Intervention"
+65:04:00;s3_r19;because I need to keep practicing;3-manual trigger supports developers' training
+66:02:00;s3_r20;IDE, because it’s more pratical;"3-ide plugin is useful
+concept-Workflow Consistency
+s3_q2"
+66:03:00;s3_r20;This could be something that happens before committing;"3-suggestions at commit time
+concept-Workflow Consistency"
+66:04:00;s3_r20;and the user approves it or not;"3-developers want to have control
+concept-Keep the Control"
+66:05:00;s3_r20;because AI can provide code that don’t work.;"3-accuracy is a concern
+concept-Tool Quality"
+67:03:00;s3_r21;I prefer it to proactively provide suggestions, so i can do then in action.;3-proactive solution is useful
+67:04:00;s3_r21;but an external tool that would make a code review after a commit is also a good idea;3-external tool is useful for code review
+67:05:00;s3_r21;some times it can be bothersome to have too much suggestions while we are coding, since it can lead to premature optimization.;"3-tools acting proactively might annoy developers
+concept-Information Load"
+67:06:00;s3_r21;Within the IDE;"3-ide plugin is useful
+concept-Workflow Consistency"
+68:02:00;s4_r1;"None, the project quality can't be determined by such simplistic metrics as ""code smells"".";"4-multiple metrics are necessary to provide software's overall quality
+s4_q2"
+68:03:00;s4_r1;None, mailing lists are flexible enough;"4-mailing lists are good channels
+s4_q3"
+68:05:00;s4_r1;Never;4-notifications are not useful
+68:06:00;s4_r1;CI are notoriously hard to get all green reliably, another source of constant CI notifications would distract from what actually matters;"4-notifications can distract developers
+concept-Notification Load"
+68:07:00;s4_r1;Unless the tools become as intelligent as real developers,;4-tools should be inteligent as real developers
+68:08:00;s4_r1;you'd need an autonomous agent that can learn as it interacts with the user.;4-tools should lear while interacting with developers
+69:02:00;s4_r2;slack channel;"4-instant message could be used for notificaitons
+s4_q3"
+69:03:00;s4_r2;Only if a threshold is met.;4-notifications should be sent based on a threshold
+69:04:00;s4_r2;If it sends mails after each cycle, people will treat it as spam and will set a rule to move it to a folder where it will never be opened.;"4-many notifications can cause pople to ignore them
+concept-Notification Load"
+70:02:00;s4_r3;Too late, more junk in the mail box;"4-many notifications can cause pople to ignore them
+concept-Notification Load"
+70:03:00;s4_r3;The bot should comment on the PR directly.;4-comments in prs are a good channel for communication
+71:01:00;s4_r4;Its useful to have control on code smells;"4-notification is useful for controlling the amount of code smells
+s4_q1"
+71:03:00;s4_r4;maybe teams bot;"4-instant message could be used for notificaitons
+s4_q3"
+72:01:00;s4_r5;After each CI run a report could be sent;"4-notification after each ci cyle
+concept-Workflow Consistency
+s4_q1"
+72:03:00;s4_r5;Slack channel, Teams or Google Space (depending on the tool used by the team).;"4-instant message could be used for notificaitons
+s4_q3"
+72:04:00;s4_r5;so the team can evaluate and act accordingly.;4-team behavior
+72:05:00;s4_r5;A summary of data presented in the report;4-summary of data presented in the commiunication
+72:06:00;s4_r5;possible insights identified by the tool (suggestions for acting) could be presented in the notification message.;4-suggestion of actions should be sent in the communicaiton
+72:07:00;s4_r5;It can mitigate risks.;4-notifications help to mitigate risks
+73:01:00;s4_r6;For each CI cycle,;"4-notification after each ci cyle
+concept-Workflow Consistency
+s4_q1"
+73:03:00;s4_r6;Showing the stats in slack channels (very often used by companies) is useful as well.;"4-instant message could be used for notificaitons
+s4_q3"
+73:04:00;s4_r6;because it will keep everyone sync about what is goign on.;4-notifications help developers to be synced
+73:05:00;s4_r6;A consolidated view of code smells been checked and each package/file affected by them would be minimal;4-consolidate smells per package/file
+73:06:00;s4_r6;More than time, it would be desirable to see the evolution of the numbers over time to show progress/degradation of the software.;4-evolution of quality metrics
+73:07:00;s4_r6;A consolidated view of code smells been checked and each package/file affected by them would be minimal;concept-Information Abstraction
+74:01:00;s4_r7;Dynamically during the code wrriting.;"4-notifications in real-time during code writing
+s4_q1"
+74:03:00;s4_r7;Today I turn off any kind of automatic notifications to not become stressed.;"1-notifications are useful
+4-many notifications can cause pople to ignore them
+4-notifications can distract developers
+concept-Notification Load
+s4_q3"
+74:04:00;s4_r7;Good or bad design is far more thsn code smells. It is also important to consider what are key properties of the overall system. Fir exsmåle if you building a product line then variability is key and if safety is key then within the product line then other things are important and thst csn vary in different corners of the product line.;4-key properties may vary
+75:01:00;s4_r8;Yes, after a criterion is met.;"4-notifications should be sent based on a threshold
+s4_q1"
+75:02:00;s4_r8;The files that contain the smells would be great and easier for the developer to navigate later.;"4-files that contains smells
+s4_q2"
+75:03:00;s4_r8;files that contain the smells;4-number of code smells
+77:05:00;s4_r10;I'm not too fond of email for this kind of checks;4-email for ci checks is not useful
+77:06:00;s4_r10;I need to consider emails I'd appreciate a setup in which I get an email after a threshold for a project I'm interested in is breached;4-notifications should be sent based on a threshold
+77:07:00;s4_r10;summary of the tracked metrics once every week.;4-summary of data presented in the commiunication
+77:08:00;s4_r10;but if I need to consider emails I'd appreciate a setup in which I get an email after a threshold for a project I'm interested in is breached and a summary of the tracked metrics once every week.;"4-customization options are necessary
+concept-Customization"
+77:09:00;s4_r10;The metric that triggered the alert, current value and threshold,;4-metric that triggered the alert
+77:10:00;s4_r10;a graph of its evolution in the last week;4-evolution of quality metrics
+77:11:00;s4_r10;a list of the top offenders (as in packages, modules, files, libraries, etc, whatever granularity that makes sense for the code base).;4-list of top offenders
+77:12:00;s4_r10;Instant messaging;4-instant message could be used for notificaitons
+77:13:00;s4_r10;CI job dashboard;4-dashboard
+77:14:00;s4_r10;I've used Jenkins with custom views for the main branch and the current release stabilization branch.;4-dashboard example
+77:15:00;s4_r10;I would rather have that notification as the result of the CI job directly. I've experienced having checks like this as a quality gate, blocking changes directly on the CI pipeline of a pull request;4-use ci as a quality gate and send a report
+78:01:00;s4_r11;This could be useful if there is threshold, if x% of the code are code smells then notifies.;"4-notifications should be sent based on a threshold
+s4_q1"
+78:03:00;s4_r11;most of the code smells detected by sonaqube were ‘false’ code smells;"4-accuracy of identified code smells is a concern
+concept-Tool Quality"
+80:03:00;s4_r13;As i mentioned in my first answer, some times mailing too much information to the stakeholders can be bad, so we should choose carefully the period it should be done.;"4-many notifications can cause pople to ignore them
+concept-Notification Load
+s4_q4"
+80:04:00;s4_r13;I think it would be better to have it after each release of the application;4-notification after after each release
+80:05:00;s4_r13;having it too often can lead to a spam of too much information that can cause the stakeholders to start ignoring it.;4-many notifications can cause pople to ignore them
+80:06:00;s4_r13;The difference between this version and the last one is a very good information;4-evolution of quality metrics
+80:07:00;s4_r13;so we can check how much it increased or even how much we decreased it in the new versions.;4-evolution can help to check the progress
+80:08:00;s4_r13;having it too often can lead to a spam of too much information that can cause the stakeholders to start ignoring it.;concept-Information Load
+82:01:00;s5_r2;Only if the warning would have been something a team member would have mentioned during a review. It's noise otherwise.;"5-the warning might cover only what real developers would warn
+concept-Notification Load
+s5_q1"
+82:03:00;s5_r2;"""Module maintainer"" concept is too rigid! A PR author usually knows who to notify, if the tool does exactly that - good, otherwise it's annoying and misses the mark.";"5-notify the module maintainer is not useful
+s5_q3"
+82:04:00;s5_r2;Anything a person can do.;"5-human-like behavior is an advantage
+s5_q4"
+82:06:00;s5_r2;The warning should include additional info that helps to resolve an issue.;5-additional informaiton to help solving the issue
+82:07:00;s5_r2;It would be nice if each warning was actually a start of chat with an autonomous agent, like ChatGPT.;5-the warning could start a chat
+82:09:00;s5_r2;A PR author usually knows who to notify, if the tool does exactly that - good, otherwise it's annoying and misses the mark.;"5-notify only interested people
+concept-Customization
+concept-Notification Load"
+82:10:00;s5_r2;I want a tool that feels like an extension of my mind or a virtual team member.;5-human-like behavior is an advantage
+82:13:00;s5_r2;The current crop of tools such as showcased in this questionnaire are too rigid and cumbersome.;"5-customization options are necessary
+concept-Customization"
+83:03:00;s5_r3;It can notify the people that have contributed the code that the contributor wants to modify.;"5-notifies contributors to a specific module
+concept-Customization
+s5_q3"
+83:04:00;s5_r3;These commands are sufficient for now. If the bot is regularly used then the need for more commands will rise.;"5-provided commands are enough
+s5_q4"
+83:05:00;s5_r3;I would like to see the bot offer more information. Like a sonar script that tries to find bugs and lets you know about them. Where the bugs are and why they are marked as bugs. It can help save reviewers time, so that they can focus on the logic.;"5-more descriptive information
+s5_q5"
+83:06:00;s5_r3;It can help in saving reviewer's time.;5-bot's warning can help saving developer`s time
+83:07:00;s5_r3;The contributor can see in advance any issues and fix them before someone dedicates time to go over the code.;5-the warning is uesful for the pr`s author
+83:10:00;s5_r3;Provide exact lines,;5-Provide exact lines
+83:11:00;s5_r3;method names;5-method names
+83:12:00;s5_r3;more explanatory comment. Why is there a code smell there? What triggered the bot?;5-more descriptive information
+84:02:00;s5_r4;There are tools for this already. You can run sonar analysis as a part of CI builds.;5-there is already a tool in place
+84:03:00;s5_r4;The only difference that it does not add a 'human like' comment.;5-human-like behavior is an advantage
+86:01:00;s5_r6;The presented scenario seems pretty marginal. It's common to integrate lint and code coverage thresholds into PRs, so not too clear what benefit this is giving us.;"5-the bot does not add value
+s5_q1"
+86:02:00;s5_r6;"The ""code smells"" terminology is quite off-putting for contributors. As a project owner I definitely don't want a contributor's first contact being a message that their code smells.";"5-message text is a concern
+concept-Tool Quality
+s5_q5"
+86:03:00;s5_r6;As a project owner I definitely don't want a contributor's first contact being a message that their code smells.;5-first contact with contributors should not be about code smells
+87:02:00;s5_r7;"I would define your tool as ""useful"" and ""successful"" if it supports open-source software forges such as ForgeJo, Gitea, Gitlab, Sourcehut, Launchpad, Codeberg at least as well as it supports Microsoft Github.";5-many platforms must be supported by the bot
+88:02:00;s5_r8;A report like this should also include suggestions for how to address the identified shortcomings.;"5-additional informaiton to help solving the issue
+s5_q2"
+88:03:00;s5_r8;No. I don't know why this would be any different than a comment left by a human on a code review.;"5-human-like behavior is an advantage
+5-notifications are not useful
+s5_q3"
+88:04:00;s5_r8;This would obviously depend heavily on the quality of the reported problems;"5-the quality of the report is a concern
+concept-Tool Quality"
+88:05:00;s5_r8;A few years ago, I would have scoffed at the idea that automated tooling would discover anything useful but this seems much more plausible now given the capabilities of LLMs;5-large language models have potential to identify problems
+88:06:00;s5_r8;One obvious advantage of an automated tool is that it can avoid ego/personal issues that sometimes interfere with constructive code reviews.;5-automated tools may reduce personal bias
+89:02:00;s5_r9;The suggestions need to be inline, in the code to which they are related, not in a single BLOB comment.;5-more descriptive information
+90:02:00;s5_r10;a link to a report is fine;"5-a link to an external report is useful
+s5_q2"
+90:03:00;s5_r10;module maintainer is enough;"5-customization options are necessary
+5-notify only interested people
+concept-Customization
+concept-Notification Load
+s5_q3"
+90:04:00;s5_r10;An external report that doesn't interfere with the code is very useful.;"5-external report
+concept-Information Load"
+90:05:00;s5_r10;I use reports like checkstyle too;5-checkstyle is an alternative
+91:01:00;s5_r11;it would help developers to review their code before pull requesting;"5-help before pull requests
+s5_q1"
+91:02:00;s5_r11;maybe a visualization (charts);"5-add charts
+s5_q2"
+91:03:00;s5_r11;No;"5-notifications are not useful
+s5_q3"
+91:04:00;s5_r11;I don't see any other;"5-provided commands are enough
+s5_q4"
+92:01:00;s5_r12;It helps, but can overwhelm the team with the amount of communications. Thus a balance should be reached.;"5-many warns can annoy developers
+concept-Notification Load
+s5_q1"
+92:02:00;s5_r12;Maybe a summary of issues (daily).;"5-summary of issues
+concept-Information Abstraction
+s5_q2"
+92:03:00;s5_r12;Tech Lead or Software Architect for follow-up and guidance.;"5-customization options are necessary
+5-notify only interested people
+5-tech lead/architect
+concept-Customization
+s5_q3"
+92:04:00;s5_r12;Postpone, ignore.;"5-command suggestion
+concept-Human Intervention
+s5_q4"
+92:05:00;s5_r12;Another option is to have a step in CI so it can inform or break the build (depending on the context / type of project).;"5-ci step is an alternative
+concept-Workflow Consistency
+s5_q5"
+93:01:00;s5_r13;It should include code snippets and possible improvements beyond the lines;"5-additional informaiton to help solving the issue
+5-more descriptive information
+s5_q2"
+93:02:00;s5_r13;The commit author;"5-notify commit author
+5-notify only interested people
+concept-Customization
+s5_q3"
+94:02:00;s5_r14;The feature or user story number.;"5-feature or number story
+s5_q2"
+94:03:00;s5_r14;Include user work item (user story);"5-feature or number story
+s5_q4"
+94:04:00;s5_r14;The developer can quickly check where he needs to review;"5-helps where need to review
+5-the warning is uesful for the pr`s author"
+95:01:00;s5_r15;This is very usefull and, depending the reviewer, the PR can or cannot be accepted.;"5-warn is useful
+s5_q1"
+95:03:00;s5_r15;The maintainer as well the Lead Developer / Architect of the software.;"5-customization options are necessary
+5-notify only interested people
+5-tech lead/architect
+concept-Customization
+s5_q3"
+95:04:00;s5_r15;ossibly, how many code smells were present before the PR so that the reviwer can understand if they were introduced by the PR or not.;5-number of code smells before PR
+96:01:00;s5_r16;Much clearer information about the long term problems with the smells.;"5-long-term impact
+5-more descriptive information
+s5_q2"
+96:02:00;s5_r16;"It sholud be the product owner of the ""product"" where the module is contained/owned.";"5-customization options are necessary
+5-product owner
+concept-Customization
+s5_q3"
+97:01:00;s5_r17;It would sparing time from tech lead to do recurring code review to the same issues;"5-bot's warning can help saving developer`s time
+s5_q1"
+97:02:00;s5_r17;To follow the standards set by the team;"5-the warn should include standards
+concept-Context-Dependent Solution
+concept-Contextual Factors
+concept-Customization
+s5_q2"
+97:03:00;s5_r17;No;"5-notifications are not useful
+s5_q3"
+98:02:00;s5_r18;I believe its ok for now;"5-no extra information needed
+s5_q2"
+98:04:00;s5_r18;Maybe using AI to suggest performance improvements or maybe the possibility and how to add tests?;"5-using ai to suggest improvements
+s5_q4"
+98:05:00;s5_r18;Well, sometimes the owners of a github project don't have time to verify people code as soons and possible, so it's great for a first approach and before the bot answer the dev can also go and check the issues listed by the bot.;5-bot's warning can help saving developer`s time
+98:06:00;s5_r18;It will reduce the answer time and the developer can work on the fixes sooner.;5-the bot can reduce answer time
+98:07:00;s5_r18;Maybe the people responsible for the project;"5-customization options are necessary
+5-tech lead/architect
+concept-Customization"
+98:08:00;s5_r18;if that doesn't get too annoying for them;"5-many warns can annoy developers
+concept-Notification Load"
+100:01:00;s5_r20;Every time! Get users used to this kind of messaging for every change. It can be very succinct in case there are no issues found.;"5-warn is useful
+s5_q1"
+100:05:00;s5_r20;I think it even has too much info.;"5-the bot is already providing too much info
+concept-Information Load"
+100:06:00;s5_r20;It should leave the message on the PR,;5-leave message on the PR
+100:08:00;s5_r20;Let the Git system handle those.;5-git can handle notification
+100:10:00;s5_r20;like marking them as false positives.;"5-command:mark code smells as false positives
+concept-Human Intervention
+concept-Tool Quality"
+100:17:00;s5_r20;The extra commands could be either omitted, listed inline or left as a link to further documentation.;5-link to facilitate navigation
+100:18:00;s5_r20;I use GitLab and diff comments also show on the merge request overview page. In this scenario I'd prefer leaving the issues directly as diff comments.;concept-Information Abstraction
+100:19:00;s5_r20;and not bother with notifications.;"5-many warns can annoy developers
+concept-Notification Load"
+100:20:00;s5_r20;For everything else listed, the actions can be handled by the Git system, it's redundant to have the bot handling them.;"5-most commands can be handle by github
+concept-Notification Load"
+101:02:00;s5_r21;Maybe have a link for each smells for easier navigation.;"5-link to facilitate navigation
+s5_q2"
+101:03:00;s5_r21;This could be helpful in newer projects,;"5-bot is useful for new projects
+concept-Context-Dependent Solution
+concept-Contextual Factors"
+101:04:00;s5_r21;to enforce a certain quality level of the code.;5-bot can enforce quality
+102:01:00;s5_r22;Prevent bugs, memory leaks and code security;"5-warn is useful
+s5_q1"
+103:03:00;s5_r23;Other developers that can help in the code review, for example developers that already received an warning for this type of code smell and fixed it before, so they can do a review and give suggestions to the maintainer.;"5-customization options are necessary
+concept-Customization
+s5_q3"
+103:04:00;s5_r23;Coomands to configure if the bot comments should be only warnings or threads that needs to be solved before the PR is merged.;"5-customization options are necessary
+concept-Customization
+s5_q4"
+103:08:00;s5_r23;Always, having that feedback being sent on each PR is very useful;5-leave message on the PR
+103:09:00;s5_r23;specially if the bot give suggestions on how to fix it.;5-using ai to suggest improvements
+103:10:00;s5_r23;Yes, suggesting how to fix the code smells would be a good thing;5-using ai to suggest improvements
+103:11:00;s5_r23;if not a reviewer be suggested to check to code would also be good;5-suggest reviewer
+103:12:00;s5_r23;sometimes the person will not know what is the best way to fix the code smell, so a second or third opinion would help a lot.;5-improves communication

@@ -1,0 +1,12 @@
+\begin{table}[!ht]
+\centering
+\footnotesize
+\caption{Top-10 most cited requirements}
+\label{tab:respondents-per-requirement}
+\begin{tabular}{p{9.5cm}p{3.5cm} p{1cm}}
+\hline
+\textbf{requirement} & \textbf{category} & \textbf{resp.}\\ \hline
+\data 
+\\ \hline
+\end{tabular}
+\end{table}

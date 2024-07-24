@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\centering
+\footnotesize
+\caption{Top-10 most cited requirements}
+\label{tab:respondents-per-requirement}
+\begin{tabular}{p{9.5cm}p{3.5cm} p{1cm}}
+\hline
+\textbf{requirement} & \textbf{category} & \textbf{resp.}\\ \hline
+The issue labeling bot will notify practitioners about issues containing techincal debt. & information to be provided/detailed information & 11\\
+The dashboard will contain a dedicated widget for technical debt & tool usage/tool interface & 7\\
+The issue labeling bot will provide a customization option to configure notifications considering the lable assigned to an issue. & tool usage/tool execution/execution criteria & 6\\
+The issue labeling bot will enable practitioners to choose whether to assign a label to an issue & tool usage/customization & 6\\
+The refactoring plugin will enable manually-trggered execution & tool usage/tool execution/manual execution & 6\\
+The dashboard will present the time since an issue was open. & information to be provided/detailed information & 5\\
+The ci-script will send notification using instant message services & tool usage/tool interface & 5\\
+The dashboard will present a list of smells grouped by package & information to be provided/detailed information & 4\\
+The dashboard will present a list of smells grouped by type. & information to be provided/detailed information & 4\\
+The dashboard will present the evolution of the metrics provided by linters. & information to be provided/grouped information & 4\\
+\\ \hline
+\end{tabular}
+\end{table}
