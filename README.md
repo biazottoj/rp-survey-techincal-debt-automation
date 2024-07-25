@@ -1,4 +1,4 @@
-# Replication Package for "A survey on requirements for technical debt management automation"
+# Replication Package for "Understanding Practitioners' Reasoning and Requirements for Efficient Tool Support in Technical Debt Management"
 
 ##### Authors: Joao Paulo Biazotto, Daniel Feitosa, Paris Avgeriou, and Elisa Yumi Nakagawa
 
