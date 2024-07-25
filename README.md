@@ -122,8 +122,7 @@ The replication package includes the datasets (for answers, codes, and indicator
 | :experience                           | the time of experience of a respondent (e.g., 1-5 years)                                                                                 |
 | :role                                 | the current role of a respondent (e.g., software developer)                                                                              |
 | :usefulness                           | the preceived usefulness of a scenario                                                                                                   |
-| sX_qX::XXXXX                          | variables with this format represents answers for a certain question (q) in a scenario (s),                                              |
-|                                         e.g., s1_q1::Would such a label be useful to prioritize the issues that should be addressed? Please justify your answer.                 |
+| sX_qX::XXXXX                          | variables with this format represents answers for a certain question (q) in a scenario (s), e.g., s1_q1::Would such a label be useful to prioritize the issues that should be addressed? Please justify your answer.                                                                                                                                   |
 
 ## Running the data analysis
 
