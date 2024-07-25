@@ -64,3 +64,11 @@ def load_csv_dataset(filename, dialect='excel', delimiter = ','):
     with open(filename, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f, dialect=dialect, delimiter=delimiter)
         return [row for row in reader]
+
+def save_csv_dataset(filename, data, header=None):
+    header = header if header else list(data[0].keys())
+    with open(filename, 'w', encoding="utf-8") as f:
+        writer = csv.DictWriter(f,fieldnames=header)
+        writer.writeheader()
+        for d in data:
+            writer.writerow(d)

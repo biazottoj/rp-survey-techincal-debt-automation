@@ -23,6 +23,18 @@ The replication package includes the datasets (for answers, codes, and indicator
 │   |   └── 103 files with the questions and answers.
 |   ├── answers-highlighted
 |   |   └── 103 files with indicators highlighted in the the answers
+|   ├── correlation-respondents-requirements
+|   |   ├── scatter-plots
+|   |   |   ├── plots.html
+|   |   |   ├── respondents-information-to-be-provided-detailed-information.html
+|   |   |   ├── respondents-information-to-be-provided-grouped-information.html
+|   |   |   ├── respondents-tool-usage-customization.html
+|   |   |   ├── respondents-tool-usage-tool-execution-execution-criteria.html
+|   |   |   ├── respondents-tool-usage-tool-execution-manual-execution.html
+|   |   |   ├── respondents-tool-usage-tool-execution-workflow-execution.html
+|   |   |   └── respondents-tool-usage-tool-interface.html
+|   |   ├── requirements-and-respondents.csv
+|   |   └── respondents-per-requirement-category.csv
 |   ├── questionnaires
 |   |   ├── 0-invitation-letters-email.pdf
 |   |   ├── 1-invitation-letters-social-media.pdf
@@ -54,8 +66,13 @@ The replication package includes the datasets (for answers, codes, and indicator
 |   ├── s4-answers.xlsx
 |   └── s5-answers.xlsx
 ├── figures
-│   ├── helpers.py 
-|   └── file.py
+│   ├── requirements-categories.pdf
+│   ├── requirements-template.pdf
+│   ├── research-method.pdf
+│   ├── s2-mockup.png
+│   ├── sd-theorectical-model.pdf
+│   ├── requirements-template.pdf
+|   └── theory.pdf
 ├── scripts
 │   ├── helpers.py
 │   ├── highlight-codes.py

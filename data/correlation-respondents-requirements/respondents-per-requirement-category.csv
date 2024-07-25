@@ -1,0 +1,104 @@
+respondent-id,respondent-role,respondent-experience,respondent-education,tool usage/tool execution/workflow execution,tool usage/tool execution/manual execution,tool usage/tool interface,tool usage/tool execution/execution criteria,information to be provided/detailed information,tool usage/customization,information to be provided/grouped information
+s1_r1,Phd Student,less than 1 year,Master,0,0,0,0,0,0,0
+s1_r2,Software Developer,more than 10 years,Unfinished bachelor,0,0,0,1,0,1,0
+s1_r3,Software Developer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s1_r4,Software Developer,1 - 5 years,Bachelor,0,0,0,1,1,1,0
+s1_r5,Software Architect/Designer,more than 10 years,Master,0,0,0,1,0,0,0
+s1_r6,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s1_r7,Software Developer,1 - 5 years,Master,0,0,0,0,0,0,0
+s1_r8,Software Developer,more than 10 years,Master,0,0,0,1,0,1,0
+s1_r9,Software Developer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s1_r10,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s1_r11,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s1_r12,Software Developer,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s1_r13,Software Developer,1 - 5 years,PhD,0,0,0,1,1,1,0
+s1_r14,Project/Engineering Manager,more than 10 years,Master,0,0,1,0,1,0,0
+s1_r15,Software Architect/Designer,1 - 5 years,Master,0,0,0,0,1,0,0
+s1_r16,Software Architect/Designer,1 - 5 years,Master,0,0,0,0,0,0,0
+s1_r17,Software Architect/Designer,1 - 5 years,PhD,0,0,0,0,1,0,0
+s1_r18,Software Developer,more than 10 years,PhD,0,0,0,1,1,0,0
+s1_r19,Software Architect/Designer,more than 10 years,PhD,0,0,0,0,1,0,0
+s1_r20,Software Architect/Designer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s1_r21,Software Developer,1 - 5 years,Bachelor,0,0,0,1,1,1,0
+s1_r22,Project/Engineering Manager,more than 10 years,Unfinished bachelor,0,0,0,1,0,1,0
+s1_r23,Software Developer,1 - 5 years,Bachelor,0,0,0,0,1,0,0
+s1_r24,Project/Engineering Manager,more than 10 years,Master,0,0,0,0,0,0,0
+s1_r25,Software Developer,6 - 10 years,Bachelor,0,0,0,0,1,0,0
+s2_r1,Software Developer,more than 10 years,Unfinished bachelor,0,0,0,0,0,0,0
+s2_r2,Software Developer,more than 10 years,Bachelor,0,0,0,0,1,0,1
+s2_r3,Software Developer,more than 10 years,Master,0,0,0,0,0,0,1
+s2_r4,Student,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s2_r5,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s2_r6,Software Developer,more than 10 years,Master,0,0,0,0,1,0,0
+s2_r7,Quality Assurance,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s2_r8,Software Developer,1 - 5 years,PhD,0,0,0,0,1,0,0
+s2_r9,Project/Engineering Manager,more than 10 years,Master,0,0,0,0,1,0,1
+s2_r10,Software Architect/Designer,1 - 5 years,Master,0,0,0,0,0,0,0
+s2_r11,Software Developer,6 - 10 years,Master,0,0,1,0,0,0,1
+s2_r12,Software Architect/Designer,more than 10 years,PhD,0,0,1,0,1,0,1
+s2_r13,Software Developer,6 - 10 years,Master,0,0,0,0,1,0,0
+s2_r14,Software Architect/Designer,more than 10 years,Bachelor,0,0,0,0,1,0,1
+s2_r15,Software Architect/Designer,1 - 5 years,PhD,0,0,1,0,0,1,1
+s2_r16,Software Developer,1 - 5 years,Bachelor,0,0,1,0,1,0,0
+s2_r17,Software Developer,1 - 5 years,Bachelor,0,0,1,0,0,0,0
+s2_r18,Software Developer,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s2_r19,Project/Engineering Manager,more than 10 years,Unfinished bachelor,0,0,1,0,1,0,0
+s2_r20,Software Developer,1 - 5 years,Bachelor,0,0,1,0,0,1,0
+s2_r21,Software Developer,6 - 10 years,Bachelor,0,0,0,0,1,0,0
+s3_r1,Software Developer,1 - 5 years,Master,0,0,0,0,0,0,0
+s3_r2,Software Developer,more than 10 years,Unfinished bachelor,0,0,0,0,0,0,0
+s3_r3,Software Developer,more than 10 years,Bachelor,0,1,0,0,0,0,0
+s3_r4,Software Developer,1 - 5 years,Master,0,0,0,0,0,0,0
+s3_r5,Software Architect/Designer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s3_r6,Software Architect/Designer,more than 10 years,Other,0,1,0,0,0,0,0
+s3_r7,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s3_r8,Software Developer,more than 10 years,Master,0,1,0,0,0,0,0
+s3_r9,Software Developer,1 - 5 years,PhD,0,1,0,0,0,0,0
+s3_r10,Project/Engineering Manager,more than 10 years,Master,0,0,0,0,0,0,1
+s3_r11,Software Developer,6 - 10 years,Master,1,0,0,0,0,0,0
+s3_r12,Software Architect/Designer,1 - 5 years,Master,0,0,0,0,0,0,0
+s3_r13,Software Architect/Designer,more than 10 years,PhD,1,0,0,0,0,0,0
+s3_r14,Software Developer,1 - 5 years,Bachelor,0,1,0,0,0,0,0
+s3_r15,Software Developer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s3_r16,Customer Engineer,6 - 10 years,Master,0,0,0,0,0,0,0
+s3_r17,Software Developer,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s3_r18,Project/Engineering Manager,more than 10 years,Unfinished bachelor,1,0,1,0,0,0,0
+s3_r19,Software Developer,more than 10 years,Bachelor,0,1,0,0,0,0,0
+s3_r20,Software Developer,1 - 5 years,Bachelor,1,0,0,0,0,0,0
+s3_r21,Software Developer,6 - 10 years,Bachelor,0,0,0,0,0,0,0
+s4_r1,Software Developer,more than 10 years,Unfinished bachelor,0,0,1,0,0,0,0
+s4_r2,Software Developer,more than 10 years,Bachelor,0,0,1,1,0,0,0
+s4_r3,Software Developer,more than 10 years,Master,0,0,1,0,0,0,0
+s4_r4,Software Developer,1 - 5 years,PhD,0,0,1,0,0,0,0
+s4_r5,Project/Engineering Manager,more than 10 years,Master,1,0,1,0,0,0,1
+s4_r6,Software Architect/Designer,more than 10 years,PhD,1,0,1,0,0,0,1
+s4_r7,Software Architect/Designer,more than 10 years,Bachelor,0,0,0,0,1,0,0
+s4_r8,Software Developer,1 - 5 years,Bachelor,0,0,0,1,0,0,1
+s4_r9,Software Developer,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s4_r10,Project/Engineering Manager,more than 10 years,Unfinished bachelor,0,0,1,1,1,0,1
+s4_r11,Software Developer,1 - 5 years,Bachelor,0,0,0,1,0,0,0
+s4_r12,Researcher,1 - 5 years,Master,0,0,0,0,0,0,0
+s4_r13,Software Developer,6 - 10 years,Bachelor,0,0,0,0,0,0,1
+s5_r1,Software Developer,less than 1 year,PhD,0,0,0,0,0,0,0
+s5_r2,Software Developer,more than 10 years,Unfinished bachelor,0,0,0,0,1,0,0
+s5_r3,Software Developer,1 - 5 years,Bachelor,1,0,0,0,0,0,0
+s5_r4,Software Developer,more than 10 years,Bachelor,0,0,0,0,0,0,0
+s5_r5,Software Developer,1 - 5 years,Master,0,0,0,0,0,0,0
+s5_r6,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s5_r7,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s5_r8,Software Developer,more than 10 years,Bachelor,0,0,0,0,1,0,0
+s5_r9,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s5_r10,Software Developer,more than 10 years,Master,0,0,0,0,0,0,0
+s5_r11,Software Developer,1 - 5 years,PhD,0,0,0,0,0,0,0
+s5_r12,Project/Engineering Manager,more than 10 years,Master,1,0,0,0,0,1,0
+s5_r13,Software Developer,more than 10 years,Bachelor,1,0,0,0,1,0,0
+s5_r14,Software Architect/Designer,6 - 10 years,PhD,0,0,0,0,1,0,0
+s5_r15,Software Architect/Designer,more than 10 years,PhD,1,0,0,0,0,0,1
+s5_r16,Software Architect/Designer,more than 10 years,Bachelor,0,0,0,0,0,0,1
+s5_r17,Software Developer,more than 10 years,Other,0,0,0,0,1,0,0
+s5_r18,Software Developer,1 - 5 years,Bachelor,1,0,0,0,0,0,0
+s5_r19,Software Developer,1 - 5 years,Bachelor,0,0,0,0,0,0,0
+s5_r20,Project/Engineering Manager,more than 10 years,Unfinished bachelor,0,0,0,0,1,1,0
+s5_r21,Software Developer,1 - 5 years,Bachelor,0,0,0,0,1,0,0
+s5_r22,Software Developer,6 - 10 years,Bachelor,0,0,0,0,0,0,0
+s5_r23,Software Developer,6 - 10 years,Bachelor,0,0,0,0,0,0,0
