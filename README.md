@@ -44,6 +44,7 @@ The replication package includes the datasets (for answers, codes, and indicator
 |   |   └── s5-mockup.png
 |   ├── atlas-bundle.atlasti
 |   ├── codebook.xlsx
+|   ├── pre-coding.xlsx
 |   ├── quotations.csv
 |   ├── requirements.csv
 |   ├── respondents.csv
