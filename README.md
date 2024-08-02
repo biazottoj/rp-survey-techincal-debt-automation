@@ -19,10 +19,6 @@ The replication package includes the datasets (for answers, codes, and indicator
 
 ```
 ├── data
-│   ├── answers
-│   |   └── 103 files with the questions and answers.
-|   ├── answers-highlighted
-|   |   └── 103 files with indicators highlighted in the the answers
 |   ├── correlation-respondents-requirements
 |   |   ├── scatter-plots
 |   |   |   ├── plots.html
